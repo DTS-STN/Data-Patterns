@@ -50,16 +50,7 @@ Add a short description
 
 * Add some links here
 
-### Help improve this pattern
-
-We love receiving feedback!
-
-If you notice something we should fix, please [propose a change].
-
-If you're not sure how to do that, read our guidance on [how to contribute].
-
 #### Recent changes
 * List
 * Recent
 * Changes
-
