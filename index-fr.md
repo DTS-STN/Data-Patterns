@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Data Patterns (FR)
 lang-link: index.html
 lang: fr
 ---
@@ -15,18 +14,12 @@ This site is currently a WIP.
     </div>
     <div class="panel-body">
         <ul class="colcount-md-3">
-            {% for reference in site.references %}
-            <li><a href="{{ reference.url | relative_url }}">{{ reference.title }}</a></li>
+            {% for pattern in site.patterns %}
+            {% if pattern.lang == 'fr' %}
+            <li><a href="{{ pattern.url | relative_url }}">{{ pattern.name }} - {{ pattern.short-description }}</a></li>
+            {% endif %}
             {% endfor %}
         </ul>
-        <details>
-            <summary>More</summary>
-            <ul class="colcount-md-2">
-                {% for link in site.data.referenceLinks.links %}
-                <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
-                {% endfor %}
-            </ul>
-        </details>
     </div>
 </section>
 
