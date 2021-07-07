@@ -1,9 +1,18 @@
+{% capture lngLinks %} 
+[{
+  "href": "{{ page.lang-link }}",
+  {% if page.lang == 'en' %}
+    "lang": "fr",
+    "text": "Français"
+  {% else %}
+    "lang": "en",
+    "text": "English"
+  {% endif %}
+}]
+{% endcapture %}
+
 <script>
-    document.write(wet.builder.top({
-      "lngLinks": [{
-        "lang": "fr",
-        "href": "#",
-        "text": "Français"
-      }]
-    }));
-  </script>
+  document.write(wet.builder.top({
+    "lngLinks": {{ lngLinks }}
+  }));
+</script>
