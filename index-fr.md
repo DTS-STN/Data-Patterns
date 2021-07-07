@@ -1,6 +1,5 @@
 ---
 layout: default
-name: Home (FR)
 lang-link: index.html
 lang: fr
 ---
