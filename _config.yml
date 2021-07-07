@@ -1,0 +1,10 @@
+title: Data Patterns
+description: TBD
+
+plugins:
+  - jemoji
+
+include:
+  - _pages
+
+exclude: [node_modules, .gitignore, .markdown-link-check.json, .makrdownlink.json, .travis.yml, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, link-check.js, package-lock.json, package.json, README.md, SECURITY.md]
