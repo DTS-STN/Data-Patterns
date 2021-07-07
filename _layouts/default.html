@@ -20,11 +20,6 @@
   </head>
 
   <body>
-
-    {% include top.html %}
-
-    <main role="main" property="mainContentOfPage" id="wb-cont">
-    
     {% assign contribute_link = "https://github.com/DTS-STN/Data-Patterns/blob/main/CONTRIBUTING.md" %}
     {% if page.lang == 'en' %}
       {% assign page_title = "Data Patterns" %}
@@ -37,6 +32,10 @@
       {% assign contribute_title = "Contribute to a Data Pattern (FR)" %}
       {% assign contribute_description = "If you would like to contribute to a Data Pattern or add a new one to this list, please make that request by forking the project and submitting a Pull Request to our GitHub repository.<br />See our <a href=''{{ contribute_link }}''>CONTRIBUTING.md guide</a> on how to do this. (FR)" %} 
     {% endif %}
+
+    {% include top.html %}
+
+    <main role="main" property="mainContentOfPage" id="wb-cont">
             
       <div class="container">
         <h1>{{ page_title }}</h1>

@@ -13,6 +13,10 @@
 
 <script>
   document.write(wet.builder.top({
-    "lngLinks": {{ lngLinks }}
+    "lngLinks": {{ lngLinks }},
+    "breadcrumbs": [{
+      "title": "{{ page_title }}",
+      "href": "{{ '/' | absolute_url }}"
+    }]
   }));
 </script>
