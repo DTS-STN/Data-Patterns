@@ -1,0 +1,34 @@
+name: Accessibility Validation
+
+# copied from https://github.com/microsoft/accessibility-insights-action/blob/main/docs/usage.md
+
+on:
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - '**'
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+
+            # Insert any jobs here required to build your website files
+
+            - name: Scan for accessibility issues
+              uses: microsoft/accessibility-insights-action@v2
+              with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  # Provide either site-dir or url
+                  site-dir: ${{ github.workspace }}/Data-Patterns
+                  # url: your-website-url
+
+            - name: Upload report artifact
+              uses: actions/upload-artifact@v2
+              with:
+                  name: accessibility-reports
+                  path: ${{ github.workspace }}/_accessibility-reports
