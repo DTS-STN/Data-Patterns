@@ -22,7 +22,7 @@ jobs:
             - name: Scan for accessibility issues
               uses: microsoft/accessibility-insights-action@v2
               with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  # repo-token: ${{ secrets.GITHUB_TOKEN }}
                   # Provide either site-dir or url
                   site-dir: ${{ github.workspace }}/Data-Patterns
                   # url: your-website-url
