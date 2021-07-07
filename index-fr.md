@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Data Patterns
-lang-link: index-fr.html
-lang: en
+title: Data Patterns (FR)
+lang-link: index.html
+lang: fr
 ---
 
 This site is currently a WIP.
