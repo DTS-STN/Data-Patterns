@@ -10,21 +10,31 @@ lang: en
 
 ## {{ page.name }}
 
-### Description
-
 Describe the pattern here
 
-### Advantages
+### When to use this pattern
 
 * List
 * Some
 * Advantages
 
-### Limitations
+### When not to use this pattern
 
 * List
 * The
 * Limitations
+
+### How it works
+
+Describe how to implement the pattern
+Embed relevant components and code snippets
+
+### Research and Impacts
+
+Add a short description
+
+* Link to relevant research
+* Link to laws, policies, or assessments
 
 ### Examples
 
@@ -39,3 +49,17 @@ Add a short description
 ### Related Patterns
 
 * Add some links here
+
+### Help improve this pattern
+
+We love receiving feedback!
+
+If you notice something we should fix, please [propose a change].
+
+If you're not sure how to do that, read our guidance on [how to contribute].
+
+#### Recent changes
+* List
+* Recent
+* Changes
+
