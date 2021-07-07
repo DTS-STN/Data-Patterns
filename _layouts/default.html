@@ -26,7 +26,12 @@
     <main role="main" property="mainContentOfPage" id="wb-cont">
             
       <div class="container">
-        <h1>{{ page.title }}</h1>
+        <h1>
+          {% if page.lang == 'en' %}
+            Data Patterns
+          {% else %}
+            Data Patterns (FR)
+          {% endif %}</h1>
 
         {{ content }}
         

@@ -8,32 +8,34 @@ lang: en
 
 <!-- IMPORTANT - Create a duplicate page for the french translation! -->
 
-## Description
+## {{ page.name }}
+
+### Description
 
 Describe the pattern here
 
-## Advantages
+### Advantages
 
 * List
 * Some
 * Advantages
 
-## Limitations
+### Limitations
 
 * List
 * The
 * Limitations
 
-## Examples
+### Examples
 
-### Example 1
-
-Add a short description
-
-### Example 2
+#### Example 1
 
 Add a short description
 
-## Related Patterns
+#### Example 2
+
+Add a short description
+
+### Related Patterns
 
 * Add some links here

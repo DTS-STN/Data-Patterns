@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Patterns (FR)
+name: Home (FR)
 lang-link: index.html
 lang: fr
 ---
