@@ -1,30 +1,38 @@
 ---
 layout: default
-name: Test Pattern
-short-description: This pattern is a test.
+name: Test Pattern Name
+short-description: This pattern is a test template.
 lang-link: test-fr.html
 lang: en
 ---
 
-<!-- IMPORTANT - Create a duplicate page for the french translation! -->
-
 ## {{ page.name }}
-
-### Description
 
 Describe the pattern here
 
-### Advantages
+### When to use this pattern
 
 * List
 * Some
 * Advantages
 
-### Limitations
+### When not to use this pattern
 
 * List
 * The
 * Limitations
+
+### How it works
+
+Describe how to implement the pattern
+Embed relevant components and code snippets
+
+### Research and Impacts
+
+Add a short description
+
+* Link to relevant research
+* Link to laws, policies, or assessments
 
 ### Examples
 
@@ -39,3 +47,9 @@ Add a short description
 ### Related Patterns
 
 * Add some links here
+
+#### Recent changes
+
+* List
+* Recent
+* Changes
