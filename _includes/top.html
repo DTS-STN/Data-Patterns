@@ -7,6 +7,7 @@
   {% else %}
     "lang": "en",
     "text": "English"
+    {% assign frhome = "index-fr.html" %}
   {% endif %}
 }]
 {% endcapture %}
@@ -16,7 +17,7 @@
     "lngLinks": {{ lngLinks }},
     "breadcrumbs": [{
       "title": "{{ page_title }}",
-      "href": "{{ '/' | relative_url }}"
+      "href": "{{ '/' | relative_url }}{{ frhome }}"
     }]
   }));
 </script>
