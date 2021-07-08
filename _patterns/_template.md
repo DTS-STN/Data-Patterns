@@ -4,6 +4,7 @@ name: Pattern Name
 short-description: This pattern is a template.
 lang-link: template-fr.html
 lang: en
+status: in development / ready for use
 ---
 
 <!-- IMPORTANT - Create a duplicate page for the french translation! -->
@@ -11,6 +12,10 @@ lang: en
 ## {{ page.name }}
 
 Describe the pattern here
+
+<section class="alert alert-info">
+    <p>Please not that the status of this pattern is currently <strong>{{ page.status }}</strong>.</p>
+</section>
 
 ### When to use this pattern
 
