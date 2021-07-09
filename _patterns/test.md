@@ -4,11 +4,16 @@ name: Test Pattern Name
 short-description: This pattern is a test template.
 lang-link: test-fr.html
 lang: en
+status: in development
 ---
 
 ## {{ page.name }}
 
 Describe the pattern here
+
+<section class="alert alert-info">
+    <p>Please not that the status of this pattern is currently <strong>{{ page.status }}</strong>.</p>
+</section>
 
 ### When to use this pattern
 
