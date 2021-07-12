@@ -1,10 +1,10 @@
 # Data-Patterns
 
-Developing to the Data Patterns Library for DECD+
+Reusable design patterns and components that give people more power over their data and help teams build more private, safe, trustworthy, and equitable digital services. Created for Service Canada and beyond!
 
 ## Contributing
 
-If you would like to contribute to this work please review our [CONTRIBUTING.md](CONTRIBUTING.md) Guide.
+If you would like to contribute to this work, please review our [CONTRIBUTING.md](CONTRIBUTING.md) Guide.
 
 ## License
 
