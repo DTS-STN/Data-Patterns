@@ -5,6 +5,7 @@ short-description: This pattern is a template.
 lang-link: template-fr.html
 lang: en
 status: in development / ready for use
+date-modified: 2021-07-09
 ---
 
 <!-- IMPORTANT - Create a duplicate page for the french translation! -->

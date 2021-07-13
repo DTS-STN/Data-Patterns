@@ -5,6 +5,7 @@ short-description: Opt-in, user consent. Agreeing to data collection.
 lang-link: consent-fr.html
 lang: en
 status: in development
+date-modified: 2021-07-13
 ---
 
 <!-- IMPORTANT - Create a duplicate page for the french translation! -->
@@ -24,7 +25,7 @@ Opt-in user **consent** pattern, is focused on ensuring there is confidence that
 
 ### When not to use this pattern
 
-Comming soon...
+Coming soon...
 
 ### How it works
 
@@ -37,7 +38,7 @@ Whenever collecting a user's data ensure the following key elements are present,
 
 ### Research and Impacts
 
-Comming soon...
+Coming soon...
 
 ### Examples
 
