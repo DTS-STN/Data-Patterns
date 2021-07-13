@@ -8,8 +8,8 @@
     <script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script>
     <script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-en.js"></script>
 
-{% seo %}
-    
+<!-- Jekyll SEO tags { % seo % } -->
+
     <script>
       document.write(wet.builder.refTop({
       }));
@@ -21,7 +21,7 @@
   <body>
     {% if page.lang == 'en' %}
       {% assign page_title = "Data Patterns" %}
-      {% assign warning = "This site is currently a WIP." %}
+      {% assign warning = "This is a test site. Parts of this site may not work and will change" %}
       {% assign contribute_title = "Contribute to a Data Pattern" %}      
       {% assign contribute_description = "We love receiving feedback! If you notice something we should fix or if you would like to add a new one to our list, please make that request by forking the project and submitting a Pull Request to our GitHub repository. You can also send us an email." %}      
     {% else %}
@@ -30,7 +30,11 @@
       {% assign contribute_title = "Contribute to a Data Pattern (FR)" %}
       {% assign contribute_description = "We love receiving feedback! If you notice something we should fix or if you would like to add a new one to our list, please make that request by forking the project and submitting a Pull Request to our GitHub repository. You can also send us an email." %} 
     {% endif %}
-
+    
+    <section class="alert alert-warning">
+      <p>{{ warning }}</p>
+    </section>
+    
     {% include top.html %}
 
     <main role="main" property="mainContentOfPage" id="wb-cont">
@@ -38,9 +42,6 @@
       <div class="container">
         <h1>{{ page_title }}</h1>
         
-        <section class="alert alert-warning">
-          <p>{{ warning }}</p>
-        </section>
 
         {{ content }}
 

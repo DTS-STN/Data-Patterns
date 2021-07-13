@@ -2,6 +2,7 @@
 layout: default
 lang-link: index-fr.html
 lang: en
+date-modified: 2021-07-07
 ---
 
 ## Patterns

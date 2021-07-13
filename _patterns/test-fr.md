@@ -5,6 +5,7 @@ short-description: This pattern is a test template for the french page.
 lang-link: test.html
 lang: fr
 status: in development
+date-modified: 2021-07-09
 ---
 
 ## {{ page.name }}
