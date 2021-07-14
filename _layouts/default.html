@@ -21,18 +21,38 @@
   <body>
     {% if page.lang == 'en' %}
       {% assign page_title = "Data Patterns" %}
-      {% assign warning = "This is a test site. Parts of this site may not work and will change" %}
+      {% assign alpha_tag = "Test site" %}
+      {% assign alpha_proj_link_text = "Back to projects" %}
+      {% assign alpha_warning = "Parts of this site may not work and will change" %}
       {% assign contribute_title = "Contribute to a Data Pattern" %}      
       {% assign contribute_description = "We love receiving feedback! If you notice something we should fix or if you would like to add a new one to our list, please make that request by forking the project and submitting a Pull Request to our GitHub repository. You can also send us an email." %}      
     {% else %}
       {% assign page_title = "Data Patterns (FR)" %}
-      {% assign warning = "This site is currently a WIP. (FR)" %}
+      {% assign alpha_tag = "Test site" %}
+      {% assign alpha_proj_link_text = "Back to projects" %}
+      {% assign alpha_warning = "This site is currently a WIP. (FR)" %}
       {% assign contribute_title = "Contribute to a Data Pattern (FR)" %}
       {% assign contribute_description = "We love receiving feedback! If you notice something we should fix or if you would like to add a new one to our list, please make that request by forking the project and submitting a Pull Request to our GitHub repository. You can also send us an email." %} 
     {% endif %}
     
-    <section class="alert alert-warning">
-      <p>{{ warning }}</p>
+    <section id="alpha-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3">
+            <div class="row">
+              <div class="col-xs-6 col-sm-12">
+                <span class="tag">{{ alpha_tag }}</span>
+              </div>
+              <div class="col-xs-6 col-sm-12">
+                <p class="proj-link"><a href="#">{{ alpha_proj_link_text }}</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-9">
+            <p class="warning">{{ alpha_warning }}</p>
+          </div>
+        </div>
+      </div>
     </section>
     
     {% include top.html %}

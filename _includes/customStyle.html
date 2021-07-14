@@ -1,13 +1,46 @@
-<style>      
-    .checkbox input[type=checkbox] {
-        margin-left: 0;
+<style>  
+
+/* Alpha Banner */
+#alpha-banner {
+    background-color: #083C6C;
+    color: #FFF;
+}
+#alpha-banner .tag {
+    background-color: #FFF;
+    color: #083C6C;
+    padding: 5px 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+#alpha-banner .proj-link {
+    margin-top: 20px;
+    text-align: right;
+}
+#alpha-banner .proj-link a {
+    color: #FFF;
+}
+#alpha-banner .warning {
+    margin: 20px 0;
+}
+@media (min-width: 768px) {
+    #alpha-banner .warning {
+        text-align: right;
     }
-    .checkbox label {
-        padding-left: 30px;
+    #alpha-banner .proj-link {
+        text-align: left;
     }
-    label.required:after {
-        content: " (required)";
-        color: #d3080c;
-        font-weight: 700;
-    }
+}
+
+/* WET Overrides */
+.checkbox input[type=checkbox] {
+    margin-left: 0;
+}
+.checkbox label {
+    padding-left: 30px;
+}
+label.required:after {
+    content: " (required)";
+    color: #d3080c;
+    font-weight: 700;
+}
 </style>
