@@ -46,7 +46,11 @@ Add a short description
 
 #### Example 1
 
-Add a short description
+```js
+public function Example() {
+    var codeSnipits = "You can also include code snippets here!";
+}
+```
 
 #### Example 2
 
