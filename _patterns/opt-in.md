@@ -16,7 +16,7 @@ date-modified: 2021-07-15
     <p>This pattern is currently <strong>{{ page.status }}</strong>.</p>
 </section>
 
-**{{ page.short-description }}**
+{{ page.short-description }}
 
 We have a responsibility to ask users for consent when we want to collect, store, or use their data, especially personal information.
 This pattern asks the user to read a summarized privacy notice and confirm that they clearly understand and freely agree to how their data will be collected and used.
@@ -45,7 +45,7 @@ Whenever collecting a user's data, make sure that the following things are prese
 
 ### Research and impacts
 
-_Coming soon_
+Coming soon
 
 ### Examples
 
