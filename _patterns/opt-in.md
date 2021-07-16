@@ -19,8 +19,7 @@ date-modified: 2021-07-15
 **{{ page.short-description }}**
 
 We have a responsibility to ask users for consent when we want to collect, store, or use their data, especially personal information.
-
-This pattern asks the user to read a privacy notice and confirm that they clearly understand and freely agree to how their data will be collected and used.
+This pattern asks the user to read a summarized privacy notice and confirm that they clearly understand and freely agree to how their data will be collected and used.
 
 ### When to use this pattern
 
@@ -32,7 +31,7 @@ This pattern asks the user to read a privacy notice and confirm that they clearl
 ### When not to use this pattern
 
 * When the type of data is collected, where it is stored, what it is used for, and for how long, is unspecified or will change often.
-* When the user isn't able to see or access the other data that organization collects and its purposes or uses. 
+* When the user isn't able to see or access the other data that organization collects and its purposes or uses.
 * When there isn't a clear process for the user to opt-out, correct, or delete their data at any time.
 
 ### How it works
@@ -54,7 +53,7 @@ _Coming soon_
 
 When collecting users' demographic data for research on Canada.ca, the following are the key elements that should be included on the same page as the form collecting the data.
 
-> **Privacy policy**  
+> **Privacy policy**
 >
 > Your information will not be used for any decision-making process that affects your access to Government of Canada services.
 > Your personal information will not be used for any administrative purposes.
@@ -103,7 +102,7 @@ When collecting users' demographic data for research on Canada.ca, the following
 ### Related patterns and components
 
 * [Privacy Disclaimer (Canada.ca Design System)](https://design.canada.ca/common-design-patterns/privacy-disclaimer.html)
-* [Privacy Statements Generator (Canadian Digital Service)](https://privacy-statements.cds.alpha.canada.ca/en/) 
+* [Privacy Statements Generator (Canadian Digital Service)](https://privacy-statements.cds.alpha.canada.ca/en/)
 
 #### Recent changes
 
