@@ -3,8 +3,8 @@
     "link-check": "node link-check.js",
     "lint": "markdownlint -i node_modules \"**/*.md\"",
     "test": "npm run lint && npm run link-check",
-    "prestart": "bundle install",
-    "start": "bundle exec jekyll serve"
+    "prebuild": "bundle install",
+    "build": "bundle exec jekyll serve"
   },
   "repository": {
     "type": "git",
