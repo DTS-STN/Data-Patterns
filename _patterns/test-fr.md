@@ -4,7 +4,7 @@ name: Test Pattern In FRENCH
 short-description: This pattern is a test template for the french page.
 lang-link: test.html
 lang: fr
-status: in development
+status: en développement
 date-modified: 2021-07-09
 ---
 

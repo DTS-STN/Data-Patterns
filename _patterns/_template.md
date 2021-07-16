@@ -4,7 +4,7 @@ name: Pattern Name
 short-description: This pattern is a template.
 lang-link: template-fr.html
 lang: en
-status: in development / ready for use
+status: in development | en développement / ready for use | cours d'utilisation
 date-modified: 2021-07-09
 ---
 
