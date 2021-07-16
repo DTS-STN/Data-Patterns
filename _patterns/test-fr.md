@@ -49,6 +49,7 @@ public function Example() {
     var codeSnipits = "You can also include code snippets here!";
 }
 ```
+
 #### Example 2
 
 Add a short description
