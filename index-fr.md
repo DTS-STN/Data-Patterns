@@ -14,3 +14,9 @@ date-modified: 2021-07-07
 
     {% endif %}
 {% endfor %}
+
+## About Data Patterns
+
+What are they?
+How can you use them?
+[Get to know them and this project.](about.html)
