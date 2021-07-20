@@ -5,7 +5,7 @@ lang: fr
 date-modified: 2021-07-07
 ---
 
-## Patterns
+## Les modèles
 
 {% for pattern in site.patterns %}
     {% if pattern.lang == 'fr' %}
@@ -15,8 +15,8 @@ date-modified: 2021-07-07
     {% endif %}
 {% endfor %}
 
-## About Data Patterns
+## À propos des modèles de données
 
-What are they?
-How can you use them?
-[Get to know them and this project.](about.html)
+Qu'est-ce qu'ils sont ?
+Comment les utiliser ?
+[Apprenez à les connaître et à connaître ce projet.](about-fr.html)
