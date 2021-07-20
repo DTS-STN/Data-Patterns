@@ -1,7 +1,7 @@
 ---
 layout: default
 name: Opt-in to give consent
-short-description: Notifying the user of data collection and asking them to opt-in to give consent.
+short-description: Notifying the user of data collection and asking them to consent to it.
 lang-link: opt-in-fr.html
 lang: en
 status: in development
@@ -18,30 +18,37 @@ date-modified: 2021-07-15
 
 {{ page.short-description }}
 
-We have a responsibility to ask users for consent when we want to collect, store, or use their data, especially personal information.
-This pattern asks the user to read a summarized privacy notice and confirm that they clearly understand and freely agree to how their data will be collected and used.
+We have a responsibility to ask users for consent when we want to collect, store, or use their data especially personal information.
+
+This pattern asks the user to:
+
+* Read a summarized privacy notice
+* Confirm that they clearly understand and freely agree to how their data will be collected and used.
 
 ### When to use this pattern
 
-* When privacy notices (statements, terms of use, etc.) are required. For example, when signing up for a new service or storing data in cookies.
-* To meet legal obligations by recording when and how consent is given, including which version of a privacy notice the user agreed to.
-* When the user understands from the notice what data is collected, where it is stored, what it is used for, and for how long.
-* When the user is able to opt-out, correct, or delete their data at any time.
+Use this pattern when:
+
+* Privacy notices (statements, terms of use, etc.) are required. For example, signing up for a new service or storing data in cookies.
+* You are required by law to record when and how consent is given. This includes the version of a privacy notice the user agreed to.
+* The user understands what data is collected, where it is stored, what it is used for, and for how long.
+* The user is able to opt-out, correct, or delete their data at any time.
 
 ### When not to use this pattern
 
-* When the type of data is collected, where it is stored, what it is used for, and for how long, is unspecified or will change often.
-* When the user isn't able to see or access the other data that organization collects and its purposes or uses.
-* When there isn't a clear process for the user to opt-out, correct, or delete their data at any time.
+Don't use this pattern when:
+
+* The type of data is collected, where it is stored, what it is used for, and for how long, is unspecified or will change often.
+* The user isn't able to see or access the other data that organization collects and its purposes or uses.
+* There isn't a clear process for the user to opt-out, correct, or delete their data at any time.
 
 ### How it works
 
-Whenever collecting a user's data, make sure that the following things are present, **easy to find, read, and use**.
+When you collect a user's data, make sure the following are **present, easy to find, read, and use**.
 
 * A summarized privacy statement highlighting the type(s) of data collection, storage, and use, with links to the full statement.
-* A summary of the type of data being collected, describing how it will be used.
-* A short description of how to "opt-out" later.
-* Ensuring the user takes an affirmative action to opt-in (i.e. a checkbox is not pre-selected).
+* A short description of how to opt-out, correct, or delete their data later.
+* An affirmative action the user can take to opt-in by aggreeing to the privacy statement (i.e. a checkbox that isn't pre-selected).
 
 ### Research and impacts
 
@@ -51,7 +58,13 @@ Coming soon
 
 #### Collecting users' demographic data for research on Canada.ca
 
-When collecting users' demographic data for research on Canada.ca, the following are the key elements that should be included on the same page as the form collecting the data.
+<!-- IMPORTANT - Add links to SCL and sign up once live! -->
+
+Service Canada Labs - a test site for experimental ideas and works in progress - invites users to sign up to help improve that work by participating in research activities.
+
+The sign up form asks users to share some mandatory contact information and some optional demographic information.
+
+When collecting users' demographic data for research on Canada.ca (and related sites like Service Canada Labs), the following components should be included on the same page as the form collecting the data.
 
 > **Privacy policy**
 >
@@ -90,14 +103,16 @@ When collecting users' demographic data for research on Canada.ca, the following
 >
 > If you have previously signed up to become a participant and no longer wish to be contacted for future research studies, you can [unsubscribe](#unsubscribe) yourself from the participant list and we will remove your personal information.
 >
-> _Put your form here._
+>_Put your form here._
 >
 > <div class="checkbox">
 > <input type="checkbox" id="consent" name="consent" value="consent">
-> <label for="consent" class="required"><strong>I have read, understood and agree to the above.
-    I affirm that I am 18 years old, or older.
-    I understand that I can withdraw from this participant pool, or any research study at any time without consequence.</strong></label>
+> <label for="consent" class="required"><strong>I have read, understood and agree to the above. I affirm that I am 18 years old, or older. I understand that I can withdraw from this participant pool, or any research study at any time without consequence.</strong></label>
 > </div>
+
+Once the user consents to their data being collected and submits the form, the form passes that information to a database where it is stored.
+
+To learn about the technical components that make up Service Canada Labs' sign up form, read this [design documentation](https://github.com/DTS-STN/Alpha-Site/wiki/Design-Doc-004-Screener-Intake-Process).
 
 ### Related patterns and components
 
