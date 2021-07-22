@@ -14,6 +14,28 @@ We can make sure something looks, feels, and functions the same way, so we clear
 Data patterns focus on repeatable interactions involving data flows such as giving or withdrawing consent, accessing data, or understanding an automated decision.
 They bring together design, technical, and policy components to give a view of what is happening with people's data from the front-end to the back-end, and back again.
 
+## Why do data patterns matter?
+
+Data patterns can help us build trust with users by ensuring that our digital services are private, safe, and equitable by design.  
+
+<em>(more content coming)</em>
+
+### Dark patterns and Good patterns
+
+Working with users to develop trusted data patterns can also help us avoid dark patterns.
+
+[Dark patterns](https://www.darkpatterns.org/) are "tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something". They [use the power of design](https://dapde.de/en/) to benefit a product's owners or creators more than the people who use it.
+
+Dark patterns can do this in many different ways, but mainly by limiting:
+
+* **Consent** - the ability for people to choose what data they do and don't want to have collected, used, stored or shared
+* **Openness** - the ability for people to see and understand how a service was designed and how it works
+* **Accountability** - the ability to give, receive, and respond to feedback
+
+For example,
+
+<em>(insert consent/cookies example)</em>
+
 ## How can I use a pattern?
 
 The different pattern components are meant to serve different users (service designers, developers, policy experts, researchers, etc.), usually within a team.
