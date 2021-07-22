@@ -16,9 +16,9 @@ They bring together design, technical, and policy components to give a view of w
 
 ## Why do data patterns matter?
 
-Data patterns can help us build trust with users by ensuring that our digital services are private, safe, and equitable by design.
+Data patterns can help us build trust with users by ensuring that our digital services are private, safe, and equitable by design.  
 
-_(more content coming)_
+<em>(more content coming)</em>
 
 ### Dark patterns and Good patterns
 
@@ -34,7 +34,7 @@ Dark patterns can do this in many different ways, but mainly by limiting:
 
 For example,
 
-_(insert consent/cookies example)_
+<em>(insert consent/cookies example)</em>
 
 ## How can I use a pattern?
 
