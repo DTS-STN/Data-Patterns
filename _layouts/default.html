@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en' }}" xmlns="http://www.w3.org/1999/xhtml" class="no-js" dir="ltr">
+
+{% if page.lang == 'en' %}
+  {% assign page_title = "Data Patterns Library" %}
+  {% assign alpha_tag = "Test site" %}
+  {% assign alpha_proj_link_text = "Back to projects" %}
+  {% assign alpha_warning = "Parts of this site may not work and will change" %}
+  {% assign contribute_title = "Contribute to a Data Pattern" %}      
+  {% assign contribute_description = "We love receiving feedback! If you notice something we should fix or if you would like to add a new one to our list, please make that request by forking the project and submitting a Pull Request to our GitHub repository. You can also send us an email." %}      
+{% else %}
+  {% assign page_title = "Bibliothèque de modèles de données" %}
+  {% assign alpha_tag = "Site d’essai" %}
+  {% assign alpha_proj_link_text = "Retour aux projets" %}
+  {% assign alpha_warning = "Certaines parties des laboratoires pourraient ne pas fonctionner." %}
+  {% assign contribute_title = "Contribuer à un modèle de données" %}
+  {% assign contribute_description = "Nous aimons recevoir des commentaires ! Si vous remarquez quelque chose que nous devrions corriger ou si vous souhaitez ajouter un nouveau modèle à notre liste, veuillez en faire la demande en créant une bifurcation du projet et en soumettant une demande de transfert à notre dépôt GitHub. Vous pouvez également nous envoyer un courriel." %} 
+{% endif %}
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script>
-    <script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-{{ page.lang | default: 'en' }}.js"></script>
+    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script>
+    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-{{ page.lang | default: 'en' }}.js"></script>
 
 <!-- Jekyll SEO tags { % seo % } -->
+    <title>{{ page_title }}</title>
 
     <script>
       document.write(wet.builder.refTop({
@@ -18,30 +36,14 @@
     {% include customStyle.html %}
     
   </head>
-  <body class="wb-prettify linenums all-pre">
-    {% if page.lang == 'en' %}
-      {% assign page_title = "Data Patterns Library" %}
-      {% assign alpha_tag = "Test site" %}
-      {% assign alpha_proj_link_text = "Back to projects" %}
-      {% assign alpha_warning = "Parts of this site may not work and will change" %}
-      {% assign contribute_title = "Contribute to a Data Pattern" %}      
-      {% assign contribute_description = "We love receiving feedback! If you notice something we should fix or if you would like to add a new one to our list, please make that request by forking the project and submitting a Pull Request to our GitHub repository. You can also send us an email." %}      
-    {% else %}
-      {% assign page_title = "Bibliothèque de modèles de données" %}
-      {% assign alpha_tag = "Site d’essai" %}
-      {% assign alpha_proj_link_text = "Retour aux projets" %}
-      {% assign alpha_warning = "Certaines parties des laboratoires pourraient ne pas fonctionner." %}
-      {% assign contribute_title = "Contribuer à un modèle de données" %}
-      {% assign contribute_description = "Nous aimons recevoir des commentaires ! Si vous remarquez quelque chose que nous devrions corriger ou si vous souhaitez ajouter un nouveau modèle à notre liste, veuillez en faire la demande en créant une bifurcation du projet et en soumettant une demande de transfert à notre dépôt GitHub. Vous pouvez également nous envoyer un courriel." %} 
-    {% endif %}
-    
+  <body class="wb-prettify linenums all-pre">    
     <section id="alpha-banner">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-3">
             <div class="row">
               <div class="col-xs-6 col-sm-12">
-                <span class="tag">{{ alpha_tag }}</span>
+                <h2 class="tag">{{ alpha_tag }}</h2>
               </div>
               <div class="col-xs-6 col-sm-12">
                 <p class="proj-link"><a href="#">{{ alpha_proj_link_text }}</a></p>
@@ -57,7 +59,7 @@
     
     {% include top.html %}
 
-    <main role="main" property="mainContentOfPage" id="wb-cont">
+    <main property="mainContentOfPage" id="wb-cont">
             
       <div class="container">
         <h1>{{ page_title }}</h1>
@@ -86,7 +88,7 @@
     
     {% include footer.html %}
 
-    <script type="text/javascript">
+    <script>
       document.write(wet.builder.refFooter({}));
     </script>
 
