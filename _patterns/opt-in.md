@@ -5,10 +5,8 @@ short-description: Notifying the user of data collection and asking them to cons
 lang-link: opt-in-fr.html
 lang: en
 status: in development
-date-modified: 2021-07-15
+date-modified: 2021-07-22
 ---
-
-<!-- IMPORTANT - Create a duplicate page for the french translation! -->
 
 ## {{ page.name }}
 
@@ -103,7 +101,7 @@ When collecting users' demographic data for research on Canada.ca (and related s
 >
 > If you have previously signed up to become a participant and no longer wish to be contacted for future research studies, you can [unsubscribe](#unsubscribe) yourself from the participant list and we will remove your personal information.
 >
->_Put your form here._
+> _Put your form here._
 >
 > <div class="checkbox">
 > <input type="checkbox" id="consent" name="consent" value="consent">
@@ -121,4 +119,5 @@ To learn about the technical components that make up Service Canada Labs' sign u
 
 #### Recent changes
 
-* 13/07/2021 - Started development
+* 2021-07-13 - Started development
+* 2021-07-22 - Published first draft
