@@ -8,8 +8,6 @@ status: en développement
 date-modified: 2021-07-22
 ---
 
-## {{ page.name }}
-
 <section class="alert alert-info">
     <p>Ce modèle est actuellement <strong>{{ page.status }}</strong>.</p>
 </section>
@@ -23,7 +21,7 @@ Ce modèle demande à l'utilisateur de :
 * Lire un résumé de l'avis de confidentialité
 * Confirmer qu'il comprend clairement et accepte librement la manière dont ses données seront collectées et utilisées.
 
-### Quand utiliser ce modèle
+## Quand utiliser ce modèle
 
 Utilisez ce modèle lorsque :
 
@@ -32,7 +30,7 @@ Utilisez ce modèle lorsque :
 * L'utilisateur comprend quelles données sont collectées, où elles sont stockées, à quelles fins elles sont utilisées et pendant combien de temps.
 * L'utilisateur est en mesure de refuser, de corriger ou de supprimer ses données à tout moment.
 
-### Quand ne pas utiliser ce modèle
+## Quand ne pas utiliser ce modèle
 
 N'utilisez pas ce modèle lorsque :
 
@@ -40,7 +38,7 @@ N'utilisez pas ce modèle lorsque :
 * L'utilisateur n'est pas en mesure de voir ou d'accéder aux autres données que l'organisation collecte et à leurs finalités ou utilisations.
 * Il n'existe pas de procédure claire permettant à l'utilisateur de refuser, de corriger ou de supprimer ses données à tout moment.
 
-### Comment ça fonctionne?
+## Comment ça fonctionne?
 
 Lorsque vous collectez les données d'un utilisateur, assurez-vous que les éléments suivants sont **présents, faciles à trouver, à lire et à utiliser**.
 
@@ -48,13 +46,13 @@ Lorsque vous collectez les données d'un utilisateur, assurez-vous que les élé
 * Une brève description de la manière de se désinscrire, de corriger ou de supprimer leurs données ultérieurement.
 * Une action positive que l'utilisateur peut prendre pour accepter la déclaration de confidentialité (c'est-à-dire une case à cocher qui n'est pas présélectionnée).
 
-### Recherche et impacts
+## Recherche et impacts
 
 Bientôt disponible
 
-### Exemples
+## Exemples
 
-#### Collecte des données démographiques des utilisateurs pour la recherche sur Canada.ca
+### Collecte des données démographiques des utilisateurs pour la recherche sur Canada.ca
 
 <!-- IMPORTANT - Ajoutez des liens vers le SCL et inscrivez-vous une fois en ligne ! -->
 
@@ -112,12 +110,12 @@ Une fois que l'utilisateur accepte que ses données soient collectées et soumet
 
 Pour en savoir plus sur les éléments techniques qui composent le formulaire d'inscription de Service Canada Labs, lisez cette [documentation de conception](https://github.com/DTS-STN/Alpha-Site/wiki/Design-Doc-004-Screener-Intake-Process).
 
-### Modèles et composants connexes
+## Modèles et composants connexes
 
 * [Déclaration de confidentialité (système de conception Canada.ca)](https://design.canada.ca/common-design-patterns/privacy-disclaimer.html)
 * [Générateur de déclarations de confidentialité (Service numérique canadien)](https://privacy-statements.cds.alpha.canada.ca/en/)
 
-### Changements récents
+## Changements récents
 
 * 2021-07-13 - Début du développement
 * 2021-07-22 - Première version publiée

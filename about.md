@@ -1,5 +1,6 @@
 ---
 layout: default
+title: About Data Patterns
 lang-link: about-fr.html
 lang: en
 date-modified: 2021-07-16

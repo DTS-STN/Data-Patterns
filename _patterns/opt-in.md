@@ -8,8 +8,6 @@ status: in development
 date-modified: 2021-07-22
 ---
 
-## {{ page.name }}
-
 <section class="alert alert-info">
     <p>This pattern is currently <strong>{{ page.status }}</strong>.</p>
 </section>
@@ -23,7 +21,7 @@ This pattern asks the user to:
 * Read a summarized privacy notice
 * Confirm that they clearly understand and freely agree to how their data will be collected and used.
 
-### When to use this pattern
+## When to use this pattern
 
 Use this pattern when:
 
@@ -32,7 +30,7 @@ Use this pattern when:
 * The user understands what data is collected, where it is stored, what it is used for, and for how long.
 * The user is able to opt-out, correct, or delete their data at any time.
 
-### When not to use this pattern
+## When not to use this pattern
 
 Don't use this pattern when:
 
@@ -40,7 +38,7 @@ Don't use this pattern when:
 * The user isn't able to see or access the other data that organization collects and its purposes or uses.
 * There isn't a clear process for the user to opt-out, correct, or delete their data at any time.
 
-### How it works
+## How it works
 
 When you collect a user's data, make sure the following are **present, easy to find, read, and use**.
 
@@ -48,13 +46,13 @@ When you collect a user's data, make sure the following are **present, easy to f
 * A short description of how to opt-out, correct, or delete their data later.
 * An affirmative action the user can take to opt-in by aggreeing to the privacy statement (i.e. a checkbox that isn't pre-selected).
 
-### Research and impacts
+## Research and impacts
 
 Coming soon
 
-### Examples
+## Examples
 
-#### Collecting users' demographic data for research on Canada.ca
+### Collecting users' demographic data for research on Canada.ca
 
 <!-- IMPORTANT - Add links to SCL and sign up once live! -->
 
@@ -112,12 +110,12 @@ Once the user consents to their data being collected and submits the form, the f
 
 To learn about the technical components that make up Service Canada Labs' sign up form, read this [design documentation](https://github.com/DTS-STN/Alpha-Site/wiki/Design-Doc-004-Screener-Intake-Process).
 
-### Related patterns and components
+## Related patterns and components
 
 * [Privacy Disclaimer (Canada.ca Design System)](https://design.canada.ca/common-design-patterns/privacy-disclaimer.html)
 * [Privacy Statements Generator (Canadian Digital Service)](https://privacy-statements.cds.alpha.canada.ca/en/)
 
-#### Recent changes
+### Recent changes
 
 * 2021-07-13 - Started development
 * 2021-07-22 - Published first draft
