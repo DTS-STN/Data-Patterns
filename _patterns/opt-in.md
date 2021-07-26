@@ -2,17 +2,15 @@
 layout: default
 name: Opt-in to give consent
 short-description: Notifying the user of data collection and asking them to consent to it.
+feature-img-path: assets\images\opt-in.png
+feature-img-alt: Privacy policy with with checkbox prompt to agree and submit button.
 lang-link: opt-in-fr.html
 lang: en
 status: in development
 date-modified: 2021-07-22
 ---
 
-<section class="alert alert-info">
-    <p>This pattern is currently <strong>{{ page.status }}</strong>.</p>
-</section>
-
-{{ page.short-description }}
+{% include pattern-summary.html %}
 
 We have a responsibility to ask users for consent when we want to collect, store, or use their data especially personal information.
 

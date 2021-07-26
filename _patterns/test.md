@@ -8,11 +8,7 @@ status: in development
 date-modified: 2021-07-09
 ---
 
-Describe the pattern here
-
-<section class="alert alert-info">
-    <p>Please not that the status of this pattern is currently <strong>{{ page.status }}</strong>.</p>
-</section>
+{% include pattern-summary.html %}
 
 ## When to use this pattern
 

@@ -10,11 +10,9 @@ date-modified: 2021-07-09
 
 <!-- IMPORTANT - Create a duplicate page for the french translation! -->
 
-Describe the pattern here
+{% include pattern-summary.html %}
 
-<section class="alert alert-info">
-    <p>Please not that the status of this pattern is currently <strong>{{ page.status }}</strong>.</p>
-</section>
+Describe the pattern here
 
 ## When to use this pattern
 

@@ -8,13 +8,7 @@ date-modified: 2021-07-07
 
 ## Les modèles
 
-{% for pattern in site.patterns %}
-    {% if pattern.lang == 'fr' %}
-
-* [{{ pattern.name }} - {{ pattern.short-description }}]({{ pattern.url | relative_url }})
-
-    {% endif %}
-{% endfor %}
+{% include pattern-cards.html %}
 
 ## À propos des modèles de données
 

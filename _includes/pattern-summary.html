@@ -1,0 +1,18 @@
+<section class="alert alert-info">
+    {% if page.lang == 'en' %}
+    <p>This pattern is currently <strong>{{ page.status }}</strong>.</p>
+    {% else %}
+    <p>Ce modèle est actuellement <strong>{{ page.status }}</strong>.</p>
+    {% endif %}
+</section>
+
+<div class="well">
+    <div class="row">
+        <div class="col-sm-4 pull-right">
+            <img class="img-responsive" alt="{{ page.feature-img-alt }}" src="{{ page.feature-img-path | relative_url }}">
+        </div>
+        <div class="mrgn-lft-md mrgn-rght-md">
+            <p>{{ page.short-description }}</p>
+        </div>
+    </div>
+</div>
