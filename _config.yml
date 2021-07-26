@@ -1,4 +1,5 @@
-title: Data Patterns
+title: Data Patterns Library
+title-fr: Bibliothèque de modèles de données
 description: Reusable design patterns and components that give people more power over their data and help teams build more trustworthy digital services.
 domain: dts-stn.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://dts-stn.github.io/Data-Patterns  # the base hostname and protocol for your site, e.g. http://example.com

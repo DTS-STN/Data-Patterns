@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en' }}" xmlns="http://www.w3.org/1999/xhtml" class="no-js" dir="ltr">
 
+        
+{% if page.name contains ".md" %}  
+  {% assign page_name = page.title %}
+{% else %}    
+  {% assign page_name = page.name %}
+{% endif %} 
+
 {% if page.lang == 'en' %}
-  {% assign page_title = "Data Patterns Library" %}
+  {% assign site_title = site.title %}
   {% assign alpha_tag = "Test site" %}
   {% assign alpha_proj_link_text = "Back to projects" %}
   {% assign alpha_warning = "Parts of this site may not work and will change" %}
   {% assign contribute_title = "Contribute to a Data Pattern" %}      
   {% assign contribute_description = "We love receiving feedback! If you notice something we should fix or if you would like to add a new one to our list, please make that request by forking the project and submitting a Pull Request to our GitHub repository. You can also send us an email." %}      
 {% else %}
-  {% assign page_title = "Bibliothèque de modèles de données" %}
+  {% assign site_title = site.title-fr %}
   {% assign alpha_tag = "Site d’essai" %}
   {% assign alpha_proj_link_text = "Retour aux projets" %}
   {% assign alpha_warning = "Certaines parties des laboratoires pourraient ne pas fonctionner." %}
@@ -26,7 +33,12 @@
     <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-{{ page.lang | default: 'en' }}.js"></script>
 
 <!-- Jekyll SEO tags { % seo % } -->
-    <title>{{ page_title }}</title>
+
+{% if page.title != site_title %}
+    <title>{{ page_name }} - {{ site_title }}</title>
+{% else %}    
+    <title>{{ site_title }}</title>
+{% endif %}
 
     <script>
       document.write(wet.builder.refTop({
@@ -62,8 +74,8 @@
     <main property="mainContentOfPage" id="wb-cont">
             
       <div class="container">
-        <h1>{{ page_title }}</h1>
         
+        <h1>{{ page_name }}</h1> 
 
         {{ content }}
 

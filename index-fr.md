@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Bibliothèque de modèles de données
 lang-link: index.html
 lang: fr
 date-modified: 2021-07-07

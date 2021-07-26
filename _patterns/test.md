@@ -8,41 +8,39 @@ status: in development
 date-modified: 2021-07-09
 ---
 
-## {{ page.name }}
-
 Describe the pattern here
 
 <section class="alert alert-info">
     <p>Please not that the status of this pattern is currently <strong>{{ page.status }}</strong>.</p>
 </section>
 
-### When to use this pattern
+## When to use this pattern
 
 * List
 * Some
 * Advantages
 
-### When not to use this pattern
+## When not to use this pattern
 
 * List
 * The
 * Limitations
 
-### How it works
+## How it works
 
 Describe how to implement the pattern
 Embed relevant components and code snippets
 
-### Research and Impacts
+## Research and Impacts
 
 Add a short description
 
 * Link to relevant research
 * Link to laws, policies, or assessments
 
-### Examples
+## Examples
 
-#### Example 1
+### Example 1
 
 ```js
 public function Example() {
@@ -50,15 +48,15 @@ public function Example() {
 }
 ```
 
-#### Example 2
+### Example 2
 
 Add a short description
 
-### Related Patterns
+## Related Patterns
 
 * Add some links here
 
-#### Recent changes
+## Recent changes
 
 * List
 * Recent
