@@ -1,3 +1,16 @@
+<div class="well brdr-0 brdr-rds-0 bg-gctheme opct-90">
+    <div class="row">
+    <div class="col-sm-8">
+    <h1>{{ page.name }}</h1>
+    <p>{{ page.short-description }}</p>
+</div>
+    <div class="col-sm-4">
+        <img class="img-responsive" alt="{{ page.feature-img-alt }}" src="{{ page.feature-img-path | relative_url }}">
+    </div>
+</div>
+</div>
+
+
 <section class="alert alert-info">
     {% if page.lang == 'en' %}
     <p>This pattern is currently <strong>{{ page.status }}</strong>.</p>
@@ -5,14 +18,3 @@
     <p>Ce modèle est actuellement <strong>{{ page.status }}</strong>.</p>
     {% endif %}
 </section>
-
-<div class="well">
-    <div class="row">
-        <div class="col-sm-4 pull-right">
-            <img class="img-responsive" alt="{{ page.feature-img-alt }}" src="{{ page.feature-img-path | relative_url }}">
-        </div>
-        <div class="mrgn-lft-md mrgn-rght-md">
-            <p>{{ page.short-description }}</p>
-        </div>
-    </div>
-</div>
