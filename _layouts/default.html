@@ -75,10 +75,7 @@
             
       <div class="container">
         
-        {% if page.name contains ".md" %} 
-          <!--Pages with a `name` add their own h1 -->
-          <h1>{{ page_name }}</h1> 
-        {% endif %}
+        <h1>{{ page_name }}</h1>
 
         {{ content }}
 

@@ -6,7 +6,7 @@ feature-img-path: assets\images\opt-in-fr.png
 feature-img-alt: Privacy policy with with checkbox prompt to agree and submit button.
 lang-link: opt-in.html
 lang: fr
-status: en développement
+status: en cours de développement
 date-modified: 2021-07-22
 ---
 
