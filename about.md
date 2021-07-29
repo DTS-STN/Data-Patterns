@@ -18,23 +18,51 @@ They bring together design, technical, and policy components to give a view of w
 
 Data patterns can help us build trust with users by ensuring that our digital services are private, safe, and equitable by design.  
 
-<em>(more content coming)</em>
+For **users** (people using our services), being able to understand how our services work and use data is essential to making informed decisions for themselves or the people they care for.
 
-### Dark patterns and Good patterns
+For **teams** (people building our services), being able to responsibly reuse and adapt components makes it easier to build the best services we can - ones that consistently follow rules or best practices and work with one another in order to meet users' needs.
+
+### Avoiding dark patterns
 
 Working with users to develop trusted data patterns can also help us avoid dark patterns.
 
-[Dark patterns](https://www.darkpatterns.org/) are "tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something". They [use the power of design](https://dapde.de/en/) to benefit a product's owners or creators more than the people who use it.
+[Dark patterns](https://www.darkpatterns.org/) are "tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something".
+They [use the power of design](https://dapde.de/en/) to benefit a product's owners or creators more than the people who use it.
 
 Dark patterns can do this in many different ways, but mainly by limiting:
 
 * **Consent** - the ability for people to choose what data they do and don't want to have collected, used, stored or shared
-* **Openness** - the ability for people to see and understand how a service was designed and how it works
+* **Openness** - the ability for people to see, understand, and participate in how a service is designed and how it works
 * **Accountability** - the ability to give, receive, and respond to feedback
 
-For example,
+#### Example - Cookie pop-up
+For example, we're required by law to ask people for their consent when we want to collect data through cookies.
+This is often achieved by asking people to consent via a cookie pop-up.
 
-<em>(insert consent/cookies example)</em>
+A dark pattern for a cookie pop-up might lead you to share more data than you are comfortable with by assuming you want to consent to all cookies, then making it difficult to change your preferences.
+
+One way to do this is through deceptive patterns like **misdirection** - where a visual element like a button is used to distract from content and lead the user to take an action they might not otherwise.
+
+<img width="600" height="300" src=https://user-images.githubusercontent.com/47132182/127548057-25e2a63d-cd39-44e4-93e4-26cf1748df8a.png>
+
+Another way is through a combination of obstructive patterns including:
+* **Pre-selection** - where settings options are selected by default
+* **Click fatigue** - where a user is led to accept a default or easy path by making click paths of different lengths/effort
+* **Hidden information** - where useful options or details are 
+
+<img width="600" height="300" src="https://user-images.githubusercontent.com/47132182/127549679-6403d448-1fb0-4d3f-afb9-b956be99dc86.png">
+
+Our data patterns aim to counteract dark patterns by supporting and expanding consent, openness, and accountability rather than restricting them.
+
+A few ways we can do this include:
+* Making information **accessible**, with **varying levels of detail**
+* **Not pre-selecting options** or making default assumptions, unless validated by user needs
+* Providing one or low click options to **change settings in bulk** _and_ options to **change individual settings**
+
+<img width="600" height="300" src=https://user-images.githubusercontent.com/47132182/127549770-13338da2-c88e-46b1-b72b-bb2aeb937df5.png>
+
+Most importantly, we can avoid dark patterns and create more ethical and empowering patterns by designing with users.
+That way, our only default is ensuring that their diverse needs are expressed and met throughout the process of developing, using, and improving our services.
 
 ## How can I use a pattern?
 
