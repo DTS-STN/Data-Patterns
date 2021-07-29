@@ -48,7 +48,7 @@ One way to do this is through deceptive patterns like **misdirection** - where a
 Another way is through a combination of obstructive patterns including:
 * **Pre-selection** - where settings options are selected by default
 * **Click fatigue** - where a user is led to accept a default or easy path by making click paths of different lengths/effort
-* **Hidden information** - where useful options or details are 
+* **Hidden information** - where useful options or details are hidden or difficult to access
 
 <img width="600" height="300" src="https://user-images.githubusercontent.com/47132182/127549679-6403d448-1fb0-4d3f-afb9-b956be99dc86.png">
 
