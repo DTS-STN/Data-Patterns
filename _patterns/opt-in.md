@@ -50,20 +50,20 @@ Be sure to use proper heading levels, typically a `h2` is used.
 <details>
     <summary>Example of a privacy statement</summary>
     <p class="h2">Privacy policy</p>
-    <p><em>You can add a custom privacy statement here that adheres to the Government of Canada privacy. It should be clear how the users personal information <strong>will and will not</strong> be used. Examples follow.</em></p>    
+    <p><em>[You can add a custom privacy statement here that adheres to the Government of Canada privacy. It should be clear how the users personal information <strong>will and will not</strong> be used. Examples follow.]</em></p>    
     <p>Your information <strong>will not</strong> be used for any decision-making process that affects your access to Government of Canada services. Your personal information <strong>will not</strong> be used for any administrative purposes.</p>
     <p>Your personal information and feedback is confidential.</p>
-    <p>Your information <strong>will</strong> be used by Employment and Social Development Canada for...</p>
+    <p>Your information <strong>will</strong> be used by Employment and Social Development Canada for <em>[Briefly explain what the information will be used for]</em>.</p>
     <p class="h3">What we will collect</p>
-    <p>We need the following information so we can ...:</p>
+    <p>We need the following information so we can <em>[Briefly explain why you need the following data]</em>:</p>
     <ul>
         <li>Email address</li>
-        <li><em>List more mandatory personal identifying felids</em></li>
+        <li><em>[List more mandatory personal identifying felids]</em></li>
     </ul>
-    <p>You can also choose to share more information with us so we can ...:</p>
+    <p>You can also choose to share more information with us so we can <em>[Briefly explain how providing the following data will enable services for the user]</em>:</p>
     <ul>
         <li>Province or territory</li>
-        <li><em>List more optional personal identifying felids</em></li>
+        <li><em>[List more optional personal identifying felids]</em></li>
     </ul>
     <p>We collect this information to ensure our research groups are diverse, and to identify trends in feedback for specific groups.</p>
     <p><a href="https://www.canada.ca/en/transparency/privacy.html">Read the full privacy policy.</a></p>
@@ -76,8 +76,8 @@ The section should start with the same level heading as the Privacy statement, t
 
 <details>
     <summary>Example of an opt-out description</summary>
-    <p class="h2">How to unsubscribe from ...</p>
-    <p>If you have previously signed up to become a participant and no longer wish to be contacted for future ..., you can <a href="#unsubscribe">unsubscribe</a> yourself from the participant list and we will remove your personal information.</p>
+    <p class="h2">How to unsubscribe from <em>[identify what the user is unsubscribing from]</em></p>
+    <p>If you have previously signed up to become a participant and no longer wish to be contacted for future <em>[explain in detail what the user is unsubscribing from]</em>, you can <a href="#unsubscribe">unsubscribe</a> yourself from the participant list and we will remove your personal information.</p>
 </details>
 
 ### Affirmative action
@@ -89,7 +89,7 @@ An affirmative action the user can take to opt-in by agreeing to the privacy sta
     <div class="checkbox-inline">
         <label for="consent" class="required">
             <input type="checkbox" id="consent" name="consent" value="consent">
-            <strong>I have read, understood and agree to the above. I affirm that I am 18 years old, or older. I understand that I can withdraw from this ... at any time without consequence.</strong>
+            <strong>I have read, understood and agree to the above. I affirm that I am 18 years old, or older. I understand that I can withdraw from this <em>[service name]</em> at any time without consequence.</strong>
         </label>
     </div>
     <p><em>Valid html markup for a standard checkbox should be reviewed, and can be found in the <a href="https://wet-boew.github.io/wet-boew-styleguide/design/forms-en.html#checkboxes" target="_blank">wet-boew style guide</a>.</em></p>
