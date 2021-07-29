@@ -50,7 +50,7 @@ Be sure to use proper heading levels, typically a `h2` is used.
 <details>
     <summary>Example of a privacy statement</summary>
     <p class="h2">Privacy policy</p>
-    <p><em>[You can add a custom privacy statement here that adheres to the Government of Canada privacy. It should be clear how the users personal information <strong>will and will not</strong> be used. Examples follow.]</em></p>    
+    <p><em>[You can add a custom privacy statement here that adheres to the Government of Canada privacy. It should be clear how the users personal information <strong>will and will not</strong> be used. Examples follow.]</em></p>
     <p>Your information <strong>will not</strong> be used for any decision-making process that affects your access to Government of Canada services. Your personal information <strong>will not</strong> be used for any administrative purposes.</p>
     <p>Your personal information and feedback is confidential.</p>
     <p>Your information <strong>will</strong> be used by Employment and Social Development Canada for <em>[Briefly explain what the information will be used for]</em>.</p>
