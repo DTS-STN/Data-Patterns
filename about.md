@@ -36,6 +36,7 @@ Dark patterns can do this in many different ways, but mainly by limiting:
 * **Accountability** - the ability to give, receive, and respond to feedback
 
 #### Example - Cookie pop-up
+
 For example, we're required by law to ask people for their consent when we want to collect data through cookies.
 This is often achieved by asking people to consent via a cookie pop-up.
 
@@ -46,6 +47,7 @@ One way to do this is through deceptive patterns like **misdirection** - where a
 <img width="600" height="300" src=https://user-images.githubusercontent.com/47132182/127548057-25e2a63d-cd39-44e4-93e4-26cf1748df8a.png>
 
 Another way is through a combination of obstructive patterns including:
+
 * **Pre-selection** - where settings options are selected by default
 * **Click fatigue** - where a user is led to accept a default or easy path by making click paths of different lengths/effort
 * **Hidden information** - where useful options or details are hidden or difficult to access
@@ -55,6 +57,7 @@ Another way is through a combination of obstructive patterns including:
 Our data patterns aim to counteract dark patterns by supporting and expanding consent, openness, and accountability rather than restricting them.
 
 A few ways we can do this include:
+
 * Making information **accessible**, with **varying levels of detail**
 * **Not pre-selecting options** or making default assumptions, unless validated by user needs
 * Providing one or low click options to **change settings in bulk** _and_ options to **change individual settings**
