@@ -4,17 +4,15 @@ name: Pattern Name
 short-description: This pattern is a template.
 lang-link: template-fr.html
 lang: en
-status: in development | en développement / ready for use | cours d'utilisation
+status: under development | en cours de développement / being tested | en train d'être testé / actively used | activement utilisé
 date-modified: 2021-07-09
 ---
 
 <!-- IMPORTANT - Create a duplicate page for the french translation! -->
 
-Describe the pattern here
+{% include pattern-summary.html %}
 
-<section class="alert alert-info">
-    <p>Please not that the status of this pattern is currently <strong>{{ page.status }}</strong>.</p>
-</section>
+Describe the pattern here
 
 ## When to use this pattern
 
