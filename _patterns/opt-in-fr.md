@@ -3,7 +3,7 @@ layout: default
 name: Opter pour donner son consentement
 short-description: Informer l'utilisateur de la collecte de données et lui demander de donner son consentement.
 feature-img-path: assets\images\opt-in-fr.png
-feature-img-alt: Privacy policy with with checkbox prompt to agree and submit button.
+feature-img-alt: Politique de confidentialité avec une case à cocher pour l'acceptation et un bouton d'envoi.
 lang-link: opt-in.html
 lang: fr
 status: en cours de développement
