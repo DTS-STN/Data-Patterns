@@ -92,7 +92,7 @@ An affirmative action the user can take to opt-in by agreeing to the privacy sta
             <strong>I have read, understood and agree to the above. I affirm that I am 18 years old, or older. I understand that I can withdraw from this <em>[service name]</em> at any time without consequence.</strong>
         </label>
     </div>
-    <p><em>Valid html markup for a standard checkbox should be reviewed, and can be found in the <a href="https://wet-boew.github.io/wet-boew-styleguide/design/forms-en.html#checkboxes" target="_blank">wet-boew style guide</a>.</em></p>
+    <p><em>Valid html markup for a standard checkbox should be reviewed, and can be found in the <a href="https://wet-boew.github.io/wet-boew-styleguide/design/forms-en.html#checkboxes" target="_blank">Web Experience Toolkit</a>.</em></p>
 </details>
 
 ## Research and impacts
