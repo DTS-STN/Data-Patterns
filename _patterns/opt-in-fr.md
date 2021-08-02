@@ -73,7 +73,7 @@ Veillez à utiliser les niveaux de titre appropriés, généralement un `h2` est
 
 ### Description de l'option de refus
 
-Une brève description de la manière de refuser, de corriger ou de supprimer ses données ultérieurement. 
+Une brève description de la manière de refuser, de corriger ou de supprimer ses données ultérieurement.
 La section doit commencer par un titre de même niveau que la déclaration de confidentialité, généralement un `h2`.
 
 <details>
