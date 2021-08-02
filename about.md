@@ -37,8 +37,8 @@ Dark patterns can do this in many different ways, but mainly by limiting:
 
 #### Example - Cookie pop-up
 
-For example, we're required by law to ask people for their consent when we want to collect data through cookies.
-This is often achieved by asking people to consent via a cookie pop-up.
+Although we're only [required by law](https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/FullText.html) to ask people for consent to collect their personal information, it's a good practice to ask whether they are comfortable with other kinds of data collection, including cookie use.
+Websites often do this by asking people to consent to data collection via a cookie pop-up.
 
 A dark pattern for a cookie pop-up might lead you to share more data than you are comfortable with by assuming you want to consent to all cookies, then making it difficult to change your preferences.
 
