@@ -4,47 +4,43 @@ name: Pattern Name
 short-description: This pattern is a template.
 lang-link: template-fr.html
 lang: en
-status: in development | en développement / ready for use | cours d'utilisation
+status: under development | en cours de développement / being tested | en train d'être testé / actively used | activement utilisé
 date-modified: 2021-07-09
 ---
 
 <!-- IMPORTANT - Create a duplicate page for the french translation! -->
 
-## {{ page.name }}
+{% include pattern-summary.html %}
 
 Describe the pattern here
 
-<section class="alert alert-info">
-    <p>Please not that the status of this pattern is currently <strong>{{ page.status }}</strong>.</p>
-</section>
-
-### When to use this pattern
+## When to use this pattern
 
 * List
 * Some
 * Advantages
 
-### When not to use this pattern
+## When not to use this pattern
 
 * List
 * The
 * Limitations
 
-### How it works
+## How it works
 
 Describe how to implement the pattern
 Embed relevant components and code snippets
 
-### Research and Impacts
+## Research and Impacts
 
 Add a short description
 
 * Link to relevant research
 * Link to laws, policies, or assessments
 
-### Examples
+## Examples
 
-#### Example 1
+### Example 1
 
 ```js
 public function Example() {
@@ -52,15 +48,15 @@ public function Example() {
 }
 ```
 
-#### Example 2
+### Example 2
 
 Add a short description
 
-### Related Patterns
+## Related Patterns
 
 * Add some links here
 
-#### Recent changes
+## Recent changes
 
 * List
 * Recent

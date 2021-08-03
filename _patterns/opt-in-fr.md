@@ -2,19 +2,15 @@
 layout: default
 name: Opter pour donner son consentement
 short-description: Informer l'utilisateur de la collecte de données et lui demander de donner son consentement.
+feature-img-path: assets/images/opt-in-fr.png
+feature-img-alt: Politique de confidentialité avec une case à cocher pour l'acceptation et un bouton d'envoi.
 lang-link: opt-in.html
 lang: fr
-status: en développement
+status: en cours de développement
 date-modified: 2021-07-22
 ---
 
-## {{ page.name }}
-
-<section class="alert alert-info">
-    <p>Ce modèle est actuellement <strong>{{ page.status }}</strong>.</p>
-</section>
-
-{{ page.short-description }}
+{% include pattern-summary.html %}
 
 Nous avons la responsabilité de demander le consentement des utilisateurs lorsque nous voulons collecter, stocker ou utiliser leurs données notamment des informations personnelles.
 
@@ -23,7 +19,7 @@ Ce modèle demande à l'utilisateur de :
 * Lire un résumé de l'avis de confidentialité
 * Confirmer qu'il comprend clairement et accepte librement la manière dont ses données seront collectées et utilisées.
 
-### Quand utiliser ce modèle
+## Quand utiliser ce modèle
 
 Utilisez ce modèle lorsque :
 
@@ -32,7 +28,7 @@ Utilisez ce modèle lorsque :
 * L'utilisateur comprend quelles données sont collectées, où elles sont stockées, à quelles fins elles sont utilisées et pendant combien de temps.
 * L'utilisateur est en mesure de refuser, de corriger ou de supprimer ses données à tout moment.
 
-### Quand ne pas utiliser ce modèle
+## Quand ne pas utiliser ce modèle
 
 N'utilisez pas ce modèle lorsque :
 
@@ -40,84 +36,114 @@ N'utilisez pas ce modèle lorsque :
 * L'utilisateur n'est pas en mesure de voir ou d'accéder aux autres données que l'organisation collecte et à leurs finalités ou utilisations.
 * Il n'existe pas de procédure claire permettant à l'utilisateur de refuser, de corriger ou de supprimer ses données à tout moment.
 
-### Comment ça fonctionne?
+## Comment ça fonctionne
 
-Lorsque vous collectez les données d'un utilisateur, assurez-vous que les éléments suivants sont **présents, faciles à trouver, à lire et à utiliser**.
+orsque vous collectez les données d'un utilisateur, assurez-vous que les éléments suivants sont **présents, faciles à trouver, à lire et à utiliser**.
 
-* Une déclaration de confidentialité résumée mettant en évidence le(s) types de collecte, de stockage et d'utilisation des données, avec des liens vers la déclaration complète.
-* Une brève description de la manière de se désinscrire, de corriger ou de supprimer leurs données ultérieurement.
-* Une action positive que l'utilisateur peut prendre pour accepter la déclaration de confidentialité (c'est-à-dire une case à cocher qui n'est pas présélectionnée).
+### Déclaration de confidentialité
 
-### Recherche et impacts
+Une déclaration de confidentialité résumée mettant en évidence le(s) type(s) de collecte, de stockage et d'utilisation des données, avec des liens vers la déclaration complète.
+Veillez à utiliser les niveaux de titre appropriés, généralement un `h2` est utilisé.
 
-Bientôt disponible
+<section>
+    <h4>Exemple de déclaration de confidentialité</h4>
+    <div class="panel panel-default pattern-demo">
+        <div class="panel-body">
+            <p class="h2 mrgn-tp-sm">Politique de confidentialité</p>
+            <p><em>[Vous pouvez ajouter ici une déclaration de confidentialité personnalisée qui respecte la politique de confidentialité du gouvernement du Canada. Elle doit indiquer clairement comment les informations personnelles de l'utilisateur <strong>seront ou ne seront pas</strong> utilisées. Des exemples suivent.]</em></p>
+            <p>Vos informations <strong>ne seront pas</strong> utilisées dans le cadre d'un processus décisionnelqui affecte votre accès aux services du Gouvernement du Canada. Vos renseignements personnels <strong>ne seront pas</strong> utilisés à des fins administratives.</p>
+            <p>Vos renseignements personnels et vos commentaires sont confidentiels.</p>
+            <p>Vos renseignements <strong>seront</strong> utilisés par Emploi et Développement Social Canada pour <em>[expliquer brièvement à quoi serviront les renseignements]</em>.</p>
+            <p class="h3">Ce que nous allons recueillir</p>
+            <p>Nous avons besoin des renseignements suivants pour <em>[expliquer brièvement pourquoi vous avez besoin des données suivantes]</em>:</p>
+            <ul>
+                <li>Adresse de courriel</li>
+                <li><em>[ndiquez d'autres données d'identification personnelle obligatoires]</em></li>
+            </ul>
+            <p>Vous pouvez également choisir de nous communiquer d'autres renseignements pour que nous puissions <em>[expliquer brièvement comment le fait de fournir les données suivantes permettra de fournir des services à l'utilisateur]</em>:</p>
+            <ul>
+                <li>Province ou territoire</li>
+                <li><em>[Indiquez d'autres données d'identification personnelle facultatives]</em></li>
+            </ul>
+            <p>Nous recueillons ces renseignements pour nous assurer que nos groupes de recherche sont diversifiés et pour déterminer les tendances en matière de rétroaction pour des groupes particuliers.</p>
+            <p><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Lisez la politique de confidentialité complète.</a></p>
+        </div>
+    </div>
+    <details>
+        <summary>Code</summary>
+        <pre><code>&lt;h2>Politique de confidentialité&lt;/h2>
+&lt;p>Vos informations &lt;strong>ne seront pas&lt;/strong> utilisées dans le cadre d'un processus décisionnelqui affecte votre accès aux services du Gouvernement du Canada. Vos renseignements personnels &lt;strong>ne seront pas&lt;/strong> utilisés à des fins administratives.&lt;/p>
+&lt;p>Vos renseignements personnels et vos commentaires sont confidentiels.&lt;/p>
+&lt;p>Vos renseignements &lt;strong>seront&lt;/strong> utilisés par Emploi et Développement Social Canada pour ...&lt;/p>
+&lt;h3>Ce que nous allons recueillir&lt;/h3>
+&lt;p>Nous avons besoin des renseignements suivants pour ...:</p>
+&lt;ul>
+    &lt;li>Adresse de courriel&lt;/li>
+    &lt;li>...&lt;/li>
+&lt;/ul>
+&lt;p>Vous pouvez également choisir de nous communiquer d'autres renseignements pour que nous puissions ...:&lt;/p>
+&lt;ul>
+    &lt;li>Province ou territoire&lt;/li>
+    &lt;li>...&lt;/li>
+&lt;/ul>
+&lt;p>Nous recueillons ces renseignements pour nous assurer que nos groupes de recherche sont diversifiés et pour déterminer les tendances en matière de rétroaction pour des groupes particuliers.&lt;/p>
+&lt;p>&lt;a href="https://www.canada.ca/fr/transparence/confidentialite.html">Lisez la politique de confidentialité complète.&lt;/a>&lt;/p></code></pre>
+    </details>
+</section>
 
-### Exemples
+### Description de l'option de refus
 
-#### Collecte des données démographiques des utilisateurs pour la recherche sur Canada.ca
+Une brève description de la manière de refuser, de corriger ou de supprimer ses données ultérieurement.
+La section doit commencer par un titre de même niveau que la déclaration de confidentialité, généralement un `h2`.
 
-<!-- IMPORTANT - Ajoutez des liens vers le SCL et inscrivez-vous une fois en ligne ! -->
+<section>
+    <h4>Exemple de description de désabonnement</h4>
+    <div class="panel panel-default pattern-demo">
+        <div class="panel-body">
+            <p class="h2 mrgn-tp-sm">Comment se désabonner de <em>[identifier de quoi l'utilisateur se désabonne]</em></p>
+            <p>Si vous vous êtes précédemment inscrit pour devenir un participant et que vous ne souhaitez plus être contacté à l'avenir <em>[expliquez en détail ce dont l'utilisateur se désabonne]</em>, vous pouvez vous <a href="#desabonner">désabonner</a> de la liste des participants et nous supprimerons vos informations personnelles.</p>
+        </div>
+    </div>
+    <details>
+        <summary>Code</summary>
+        <pre><code>&lt;h2>Comment se désabonner de ...&lt;/h2>
+&lt;p>Si vous vous êtes précédemment inscrit pour devenir un participant et que vous ne souhaitez plus être contacté à l'avenir ..., vous pouvez vous &lt;a href="#desabonner">désabonner&lt;/a> de la liste des participants et nous supprimerons vos informations personnelles.&lt;/p></code></pre>
+    </details>
+</section>
 
-Service Canada Labs - un site d’essai pour les idées expérimentales et les travaux en cours - invite les utilisateurs à s'inscrire pour aider à améliorer ce travail en participant à des activités de recherche.
+### Action affirmative
 
-Le formulaire d'inscription demande aux utilisateurs de partager certaines informations de contact obligatoires et certaines informations démographiques facultatives.
+Action affirmative que l'utilisateur peut entreprendre pour accepter la déclaration de confidentialité (par exemple, une case à cocher qui n'est pas présélectionnée).
 
-Lors de la collecte des données démographiques des utilisateurs à des fins de recherche sur Canada.ca (et sur des sites connexes comme Service Canada Labs), les éléments suivants doivent être inclus sur la même page que le formulaire de collecte des données.
+<section>
+    <h4>Exemple de action affirmative</h4>
+    <div class="panel panel-default pattern-demo">
+        <div class="panel-body">
+            <div class="checkbox-inline">
+                <label for="consent" class="required">
+                    <input type="checkbox" id="consent" name="consent" value="consent">
+                    <strong>J'affirme que j'ai 18 ans ou plus. Je comprends que je peux me retirer de ce <em>[nom duservice]</em> à tout moment sans conséquence.</strong>
+                </label>
+            </div>
+        </div>
+    </div>
+    <details>
+        <summary>Code</summary>
+        <pre><code>&lt;div class="checkbox-inline">
+    &lt;label for="consent" class="required">
+        &lt;input type="checkbox" id="consent" name="consent" value="consent">
+        &lt;strong>J'affirme que j'ai 18 ans ou plus. Je comprends que je peux me retirer de ce ... à tout moment sans conséquence.&lt;/strong>
+    &lt;/label>
+&lt;/div></code></pre>
+    </details>
+</section>
 
-> **Politique en matière de protection des renseignements personnels**
->
-> Vos renseignements personnels ne seront pas utilisés dans le cadre d'un processus décisionnel qui vous touche directement ou qui vous donne accès aux services du gouvernement du Canada.
-> Vos renseignements ne seront pas utilisés à des fins administratives.
->
-> Votre participation est volontaire.
-> Vous pouvez retirer votre participation et vos renseignements personnels de notre liste à tout moment, sans aucune conséquence sur votre accès aux services ou prestations du gouvernement.
->
-> Vos renseignements personnels et vos commentaires sont confidentiels.
->
-> Vos renseignements seront utilisés par Emploi et Développement social Canada à des fins d'analyse des politiques, de recherche et d'évaluation.
->
-> **Ce que nous allons recueillir**
->
-> Nous avons besoin des renseignements suivants pour pouvoir communiquer avec vous :
->
-> * Adresse de courrier électronique
-> * Année de naissance
-> * Langue de votre choix
->
-> Vous pouvez également choisir d’échanger plus de renseignements avec nous afin que nous puissions vous inviter à participer à des recherches en fonction de vos expériences de vie :
->
-> * Province ou territoire
-> * Identité de genre
-> * Identité autochtone
-> * Situation de handicap
-> * Groupe de minorité visible
-> * Niveau de revenus
->
-> Nous recueillons ces informations pour nous assurer que nos groupes de recherche sont diversifiés et pour identifier les tendances dans les commentaires de groupes spécifiques.
->
-> [Lire la politique en matière de protection des renseignements personnels dans son intégralité.](https://www.canada.ca/fr/transparence/confidentialite.html)
->
-> **Comment se désinscrire des invitations à participer aux recherches**
->
-> Si vous vous êtes déjà inscrit pour participer et que vous ne souhaitez plus être contacté pour de futures recherches, vous pouvez vous [désinscrire](#desinscrire) et nous supprimerons vos renseignements personnels.
->
-> _Mettez votre formulaire ici._
->
-> <div class="checkbox">
-> <input type="checkbox" id="consent" name="consent" value="consent">
-> <label for="consent" class="required"><strong>J’ai lu, compris et accepté ce qui précède. J’affirme que j’ai 18 ans ou plus. Je comprends que je peux me retirer de ce groupe de participants ou de toute étude de recherche à tout moment, sans conséquence.</strong></label>
-> </div>
-
-Une fois que l'utilisateur accepte que ses données soient collectées et soumet le formulaire, le formulaire transmet ces informations à une base de données où elles sont stockées.
-
-Pour en savoir plus sur les éléments techniques qui composent le formulaire d'inscription de Service Canada Labs, lisez cette [documentation de conception](https://github.com/DTS-STN/Alpha-Site/wiki/Design-Doc-004-Screener-Intake-Process).
-
-### Modèles et composants connexes
+## Modèles et composants connexes
 
 * [Déclaration de confidentialité (système de conception Canada.ca)](https://design.canada.ca/common-design-patterns/privacy-disclaimer.html)
 * [Générateur de déclarations de confidentialité (Service numérique canadien)](https://privacy-statements.cds.alpha.canada.ca/en/)
 
-### Changements récents
+## Changements récents
 
 * 2021-07-13 - Début du développement
 * 2021-07-22 - Première version publiée

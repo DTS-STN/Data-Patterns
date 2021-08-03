@@ -8,40 +8,38 @@
 #alpha-banner .tag {
     background-color: #FFF;
     color: #083C6C;
-    padding: 5px 20px;
+    padding: 6px 16px;
     margin-top: 20px;
     display: inline-block;
     font-size: 1em;
-}
-#alpha-banner .proj-link {
-    margin-top: 20px;
-    text-align: right;
-}
-#alpha-banner .proj-link a {
-    color: #FFF;
+    font-weight: 800;
 }
 #alpha-banner .warning {
-    margin: 20px 0;
+    margin: 20px 16px;
+    display: inline-block;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     #alpha-banner .warning {
-        text-align: right;
-    }
-    #alpha-banner .proj-link {
-        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
 /* WET Overrides */
-.checkbox input[type=checkbox] {
-    margin-left: 0;
+.checkbox-inline input[type=checkbox] {
+    margin-left: -35px;
 }
-.checkbox label {
-    padding-left: 30px;
+.checkbox-inline label {
+    padding-left: 15px;
 }
 label.required:after {
     content: " (required)";
     color: #d3080c;
     font-weight: 700;
+}
+.pattern-demo {
+    padding: 19px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0px 0px 10px #DDD;
 }
 </style>

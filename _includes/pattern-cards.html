@@ -1,0 +1,15 @@
+<div class="row wb-eqht">
+{% for pattern in site.patterns %}
+    {% if pattern.lang == page.lang %}
+    <div class="col-sm-6 col-lg-4 mrgn-bttm-md">
+        <a class="figcaption hght-inhrt" href="{{ pattern.url | relative_url }}">
+            <figure class="well well-sm hght-inhrt">
+                <img class="img-responsive full-width" alt="{{ pattern.feature-img-alt }}" src="{{ pattern.feature-img-path }}">
+                <figcaption class="h5">{{ pattern.name }}</figcaption>
+                <p>{{ pattern.short-description }}</p>
+            </figure>
+        </a>
+    </div>
+    {% endif %}
+{% endfor %}
+</div>
