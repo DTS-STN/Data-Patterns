@@ -44,7 +44,7 @@ A dark pattern for a cookie pop-up might lead you to share more data than you ar
 
 One way to do this is through deceptive patterns like **misdirection** - where a visual element like a button is used to distract from content and lead the user to take an action they might not otherwise.
 
-<img width="600" height="300" src=https://user-images.githubusercontent.com/47132182/127548057-25e2a63d-cd39-44e4-93e4-26cf1748df8a.png>
+<img width="600" height="300" src="assets/images/misdirection.png" alt="Cookie pop-up box featuring three settings and sliding toggle buttons for each, set to off. There is no information about what each setting does. An “Accept all” button in the bottom right corner distracts the user and encourages them to accept all the settings.">
 
 Another way is through a combination of obstructive patterns including:
 
@@ -52,7 +52,7 @@ Another way is through a combination of obstructive patterns including:
 * **Click fatigue** - where a user is led to accept a default or easy path by making click paths of different lengths/effort
 * **Hidden information** - where useful options or details are hidden or difficult to access
 
-<img width="600" height="300" src="https://user-images.githubusercontent.com/47132182/127549679-6403d448-1fb0-4d3f-afb9-b956be99dc86.png">
+<img width="600" height="300" src="assets/images/preselection.png" alt="Cookie pop-up box featuring three settings and sliding toggle buttons for each, set to on. Since all settings are pre-selected and there is no option to clear all, the user must click each toggle individually to adjust their settings. Information about the settings is hidden via an “Advanced settings” link. A “Submit” button lets the user confirm their choices.">
 
 Our data patterns aim to counteract dark patterns by supporting and expanding consent, openness, and accountability rather than restricting them.
 
@@ -62,7 +62,7 @@ A few ways we can do this include:
 * **Not pre-selecting options** or making default assumptions, unless validated by user needs
 * Providing one or low click options to **change settings in bulk** _and_ options to **change individual settings**
 
-<img width="600" height="300" src=https://user-images.githubusercontent.com/47132182/127549770-13338da2-c88e-46b1-b72b-bb2aeb937df5.png>
+<img width="600" height="300" src="assets/images/options.png" alt="Cookie pop-up box featuring three settings and sliding toggle buttons for each, set to off. There is a brief description under each setting that can be expanded for more information. Two links allow the user to “Select all” or “Clear all” toggles. A “Submit” button lets the user confirm their choices.">
 
 Most importantly, we can avoid dark patterns and create more ethical and empowering patterns by designing with users.
 That way, our only default is ensuring that their diverse needs are expressed and met throughout the process of developing, using, and improving our services.
