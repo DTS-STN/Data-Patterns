@@ -37,7 +37,8 @@ Les dark patterns peuvent y parvenir de nombreuses façons différentes, mais pr
 
 #### Exemple – cookies pop-ups
 
-Par exemple, nous sommes [tenus par la loi](https://laws-lois.justice.gc.ca/fra/lois/p-21/TexteComplet.html) de demander le consentement des personnes lorsque nous souhaitons collecter des données via des cookies. Pour ce faire, nous demandons souvent aux gens de donner leur consentement par l'intermédiaire d'une fenêtre contextuelle sur les cookies.
+Par exemple, nous sommes [tenus par la loi](https://laws-lois.justice.gc.ca/fra/lois/p-21/TexteComplet.html) de demander le consentement des personnes lorsque nous souhaitons collecter des données via des cookies.
+Pour ce faire, nous demandons souvent aux gens de donner leur consentement par l'intermédiaire d'une fenêtre contextuelle sur les cookies.
 
 Bien que la loi nous oblige à demander l'autorisation de collecter des informations personnelles, il est recommandé de demander aux internautes s'ils sont d'accord avec d'autres types de collecte de données, y compris l'utilisation de cookies. Pour ce faire, les sites Web demandent souvent aux internautes de consentir à la collectede données par le biais d'une fenêtre contextuelle de cookies.
 
