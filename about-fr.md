@@ -67,7 +67,8 @@ Voici quelques moyens d'y parvenir:
 
 <img width="600" height="300" src="assets/images/options-fr.png" alt="Une fenêtre contextuelle de cookie comportant trois paramètres et desboutons coulissants à bascule pour chacun d'entre eux, désactivés. Chaque paramètre est accompagné d'une brève description qui peut être développée pour obtenir plus d'informations. Deux liens permettent à l'utilisateur de "Sélectionner tout" ou "Effacer tout". Un bouton "Soumettre" permet à l'utilisateur de confirmer ses choix.">
 
-Le plus important, c’est que nous pouvons éviter les dark patterns et créer des modèles plus éthiques et plus autonomes en concevant avec les utilisateurs. Ainsi, notre seul défaut est de veiller à ce que leurs divers besoins soient exprimés et satisfaits tout au long du processus de développement, d'utilisation et d'amélioration de nos services.
+Le plus important, c’est que nous pouvons éviter les dark patterns et créer des modèles plus éthiques et plus autonomes en concevant avec les utilisateurs.
+Ainsi, notre seul défaut est de veiller à ce que leurs divers besoins soient exprimés et satisfaits tout au long du processus de développement, d'utilisation et d'amélioration de nos services.
 
 ## Comment puis-je utiliser un modèle ?
 
