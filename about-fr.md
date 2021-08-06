@@ -27,7 +27,8 @@ Pour les **équipes** (les personnes qui créent nos services), la possibilité 
 
 Travailler avec les utilisateurs pour développer des modèles de données fiables peut également nous aider à éviter les dark patterns.
 
-Les [dark patterns](https://fr.wikipedia.org/wiki/Dark_pattern) sont des "astuces utilisées dans les sites web et les applications qui vous font faire des choses que vous n'aviez pas l'intention de faire, comme acheter ou vous inscrire à quelque chose". Ils utilisent le [pouvoir du design](https://dapde.de/en/) pour que les propriétaires ou les créateurs d'un produit en profitent davantage que les personnes qui l'utilisent.
+Les [dark patterns](https://fr.wikipedia.org/wiki/Dark_pattern) sont des "astuces utilisées dans les sites web et les applications qui vous font faire des choses que vous n'aviez pas l'intention de faire, comme acheter ou vous inscrire à quelque chose".
+Ils utilisent le [pouvoir du design](https://dapde.de/en/) pour que les propriétaires ou les créateurs d'un produit en profitent davantage que les personnes qui l'utilisent.
 
 Les dark patterns peuvent y parvenir de nombreuses façons différentes, mais principalement en limitant:
 
