@@ -1,0 +1,32 @@
+image:
+  repository: mtscontainers.azurecr.io/data-patterns
+  tag: "{{ requiredEnv "DOCKER_TAG" }}" 
+  pullPolicy: Always
+
+extraEnv:
+  - name: NOTIFY_BASE_API_URL
+    value: "https://api.notification.canada.ca"
+  - name: REPORT_A_PROBLEM_ENABLED
+    value: "true"
+
+ingress:
+      enabled: true
+      hosts:
+      {{- if or (eq .Environment.Name "prod-blue") (eq .Environment.Name "prod-green") (eq .Environment.Name "prototype")}}
+          - datapatterns.{{ requiredEnv "BASE_DOMAIN" }}
+      {{ else }}
+          - datapatterns-{{ .Environment.Name }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
+          - datapatterns.{{ requiredEnv "BASE_DOMAIN_DEV" }}
+      {{ end }} 
+      annotations: {}
+      # kubernetes.io/ingress.class: traefik
+
+resources:
+  requests:
+    cpu: 200m
+    memory: 512Mi
+livenessDelay: 10
+readinessDelay: 10
+livenessPath: /
+readinessPath: /
+port: 80
