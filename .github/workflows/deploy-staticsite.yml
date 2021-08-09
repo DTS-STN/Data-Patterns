@@ -19,19 +19,11 @@ jobs:
       with:
         ruby-version: 2.7.2
 
-    # - name: Install dependencies
-    #   run: bundle install
-
-    # - name: Jekyll build
-    #   run: bundle exec jekyll build
-
     # Standard usage
     - name: Jekyll Build
-      id: jekyll_build
-      uses:  helaili/jekyll-action@v2
-      with:
-        build_only: true
-        target_path: /_site
+      runs: |
+        bundle install
+        bundle exec jekyll build
     
     - name: Login to DockerHub
       uses: docker/login-action@v1 
