@@ -25,11 +25,13 @@ jobs:
     # - name: Jekyll build
     #   run: bundle exec jekyll build
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
+    # Standard usage
+    - name: Jekyll Build
+      id: jekyll_build
+      uses:  helaili/jekyll-action@v2
       with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm build
+        build_only: true
+        target_path: /_site
     
     - name: Login to DockerHub
       uses: docker/login-action@v1 
@@ -37,7 +39,7 @@ jobs:
         registry: mtscontainers.azurecr.io
         username: ${{ secrets.AZURE_GITHUB_SPN_ID }}
         password: ${{ secrets.AZURE_GITHUB_SPN_PASS }}
-        
+
     - name: Docker build and push
       id: docker_build
       uses: docker/build-push-action@v2
