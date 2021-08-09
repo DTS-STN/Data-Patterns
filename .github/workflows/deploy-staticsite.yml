@@ -38,3 +38,16 @@ jobs:
         # api_location: "api" # Api source code path - optional
         output_location: "/_site" # Built app content directory - optional
         ###### End of Repository/Build Configurations ######
+    
+    - name: Login to DockerHub
+      uses: docker/login-action@v1 
+      with:
+        registry: mtscontainers.azurecr.io
+        username: ${{ secrets.AZURE_GITHUB_SPN_ID }}
+        password: ${{ secrets.AZURE_GITHUB_SPN_PASS }}
+    - name: Docker build and push
+      id: docker_build
+      uses: docker/build-push-action@v2
+      with:
+        push: true
+        tags: mtscontainers.azurecr.io/data-patterns:latest
