@@ -35,5 +35,5 @@ jobs:
 
     - name: Manual Docker
       run: |
-        docker build -t mtscontainers.azurecr.io/data-patterns:latest
+        docker build -t mtscontainers.azurecr.io/data-patterns:latest .
         docker push mtscontainers.azurecr.io/data-patterns:latest
