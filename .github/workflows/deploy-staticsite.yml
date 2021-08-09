@@ -32,10 +32,8 @@ jobs:
         username: ${{ secrets.AZURE_GITHUB_SPN_ID }}
         password: ${{ secrets.AZURE_GITHUB_SPN_PASS }}
 
-    - name: Docker build and push
-      id: docker_build
-      uses: docker/build-push-action@v1
-      with:
-        
-        push: true
-        tags: mtscontainers.azurecr.io/data-patterns:latest
+
+    - name: Manual Docker
+      run: |
+        docker build -t mtscontainers.azurecr.io/data-patterns:latest
+        docker push mtscontainers.azurecr.io/data-patterns:latest
