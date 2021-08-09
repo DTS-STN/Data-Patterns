@@ -5,9 +5,6 @@ domain: dts-stn.github.io       # if you want to force HTTPS, specify the domain
 url: https://dts-stn.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: /Data-Patterns
 
-include:
-  - _pages
-
 exclude: [node_modules, .gitignore, .markdown-link-check.json, .makrdownlint.json, .travis.yml, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, link-check.js, package-lock.json, package.json, README.md, SECURITY.md]
 
 collections:

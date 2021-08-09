@@ -1,4 +1,4 @@
-name: Static Web App Deploy
+name: Static Web Site Deploy
 
 on: workflow_dispatch
 
@@ -19,11 +19,11 @@ jobs:
       with:
         ruby-version: 2.7.2
 
-    - name: Install dependencies
-      run: bundle install
+    # - name: Install dependencies
+    #   run: bundle install
 
-    - name: Jekyll build
-      run: bundle exec jekyll build
+    # - name: Jekyll build
+    #   run: bundle exec jekyll build
 
     - name: Build And Deploy
       id: builddeploy
