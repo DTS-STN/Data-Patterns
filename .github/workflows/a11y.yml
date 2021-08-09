@@ -1,34 +1,26 @@
 name: Accessibility Validation
 
-# copied from https://github.com/microsoft/accessibility-insights-action/blob/main/docs/usage.md
-
 on:
-    push:
-        branches:
-            - main
-    pull_request:
-        branches:
-            - '**'
-
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  axe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: npm ci
+      - run: npm run build --if-present
+      - name: Run axe
+        run: |
+          npm install -g @axe-core/cli
+          axe http://localhost:3000 --exit
 
-        steps:
-            - uses: actions/checkout@v2.1.1
 
-            # Insert any jobs here required to build your website files
-
-            - name: Scan for accessibility issues
-              uses: microsoft/accessibility-insights-action@v2
-              with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  # Provide either site-dir or url
-                  site-dir: ${{ github.workspace }}/Data-Patterns
-                  # url: your-website-url
-
-            - name: Upload report artifact
-              uses: actions/upload-artifact@v2
-              with:
-                  name: accessibility-reports
-                  path: ${{ github.workspace }}/_accessibility-reports
+# tried useing https://github.com/microsoft/accessibility-insights-action/blob/main/docs/usage.md
