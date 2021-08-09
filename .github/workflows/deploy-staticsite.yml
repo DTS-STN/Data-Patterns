@@ -34,6 +34,7 @@ jobs:
 
     - name: LS
       run: ls -al ./_site/*
+
     - name: Manual Docker
       run: |
         docker build -t mtscontainers.azurecr.io/data-patterns:latest .
