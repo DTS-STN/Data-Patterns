@@ -23,7 +23,7 @@ jobs:
     - name: Jekyll Build
       run: |
         bundle install
-        bundle exec jekyll build
+        bundle exec jekyll build JEKYLL_ENV=prod --config _config.yml,_config_prod.yml
 
     - name: Login to DockerHub
       uses: docker/login-action@v1 
