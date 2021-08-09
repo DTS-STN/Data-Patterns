@@ -32,6 +32,8 @@ jobs:
         username: ${{ secrets.AZURE_GITHUB_SPN_ID }}
         password: ${{ secrets.AZURE_GITHUB_SPN_PASS }}
 
+    - name: LS
+      run: ls -al ./_site/*
 
     - name: Manual Docker
       run: |
