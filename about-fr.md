@@ -48,7 +48,7 @@ Un dark pattern pour une fenêtre contextuelle de cookies peut vous amener à pa
 
 L'un des moyens d'y parvenir est de recourir à des designs trompeurs tels que la **fausse direction**, où un élément visuel tel qu'un bouton est utilisé pour détourner l'attention du contenu et amener l'utilisateur à effectuer une action qu'il n'aurait peut-être pas autrement.
 
-<img width="600" height="300" src="assets/images/misdirection-fr.png" alt="une fenêtre contextuelle de cookie comportant trois paramètres et des boutons coulissants à bascule pour chacun d'entre eux, réglés sur "off". Il n'y a aucune information sur l'effet de chaque paramètre. Un bouton "Accepter tout" dans le coin inférieur droit distrait l'utilisateur et l'encourage à accepter tous les paramètres.">
+<img width="600" height="300" src="assets/images/misdirection-fr.png" alt="une fenêtre contextuelle de cookie comportant trois paramètres et des boutons coulissants à bascule pour chacun d'entre eux, réglés sur &quot;off&quot;. Il n'y a aucune information sur l'effet de chaque paramètre. Un bouton &quot;Accepter tout&quot; dans le coin inférieur droit distrait l'utilisateur et l'encourage à accepter tous les paramètres.">
 
 Une autre façon de procéder consiste à combiner des modèles d'obstruction, notamment:
 
@@ -56,7 +56,7 @@ Une autre façon de procéder consiste à combiner des modèles d'obstruction, n
 * **La fatigue du clic**- lorsque l'utilisateur est amené à accepter un chemin par défaut ou facile en créant des chemins de clics de longueurs et d'efforts différents.
 * **Informations cachées**- lorsque des options ou des détails utiles sont cachés ou difficiles d'accès.
 
-<img width="600" height="300" src="assets/images/preselection-fr.png" alt="Fenêtre contextuelle de cookies comportant trois paramètres et des boutons coulissants à bascule pour chacun d'eux, activés. Étant donné que tous les paramètres sont présélectionnés et qu'il n'y a pas d'option pour tout effacer, l'utilisateur doit cliquer sur chaque bouton à bascule individuellement pour ajuster ses paramètres. Les informations relatives aux paramètres sont masquées par un lien "Paramètres avancés". Un bouton "Soumettre" permet à l'utilisateur de confirmer ses choix.">
+<img width="600" height="300" src="assets/images/preselection-fr.png" alt="Fenêtre contextuelle de cookies comportant trois paramètres et des boutons coulissants à bascule pour chacun d'eux, activés. Étant donné que tous les paramètres sont présélectionnés et qu'il n'y a pas d'option pour tout effacer, l'utilisateur doit cliquer sur chaque bouton à bascule individuellement pour ajuster ses paramètres. Les informations relatives aux paramètres sont masquées par un lien &quot;Paramètres avancés&quot;. Un bouton &quot;Soumettre&quot; permet à l'utilisateur de confirmer ses choix.">
 
 Nos modèles de données visent à contrer les dark patterns en soutenant et en élargissant le consentement, l'ouverture et la responsabilité plutôt que les restreindre.
 
@@ -66,7 +66,7 @@ Voici quelques moyens d'y parvenir:
 * **Ne pas présélectionner les options** ou faire des hypothèses par défaut, à moins qu'elles ne soient validées par les besoins de l'utilisateur.
 * Proposer des options en un ou deux clics pour modifier les paramètres **enbloc** et des options pour modifier les paramètres **individuels**.
 
-<img width="600" height="300" src="assets/images/options-fr.png" alt="Une fenêtre contextuelle de cookie comportant trois paramètres et desboutons coulissants à bascule pour chacun d'entre eux, désactivés. Chaque paramètre est accompagné d'une brève description qui peut être développée pour obtenir plus d'informations. Deux liens permettent à l'utilisateur de "Sélectionner tout" ou "Effacer tout". Un bouton "Soumettre" permet à l'utilisateur de confirmer ses choix.">
+<img width="600" height="300" src="assets/images/options-fr.png" alt="Une fenêtre contextuelle de cookie comportant trois paramètres et desboutons coulissants à bascule pour chacun d'entre eux, désactivés. Chaque paramètre est accompagné d'une brève description qui peut être développée pour obtenir plus d'informations. Deux liens permettent à l'utilisateur de &quot;Sélectionner tout&quot; ou &quot;Effacer tout&quot;. Un bouton &quot;Soumettre&quot; permet à l'utilisateur de confirmer ses choix.">
 
 Le plus important, c’est que nous pouvons éviter les dark patterns et créer des modèles plus éthiques et plus autonomes en concevant avec les utilisateurs.
 Ainsi, notre seul défaut est de veiller à ce que leurs divers besoins soient exprimés et satisfaits tout au long du processus de développement, d'utilisation et d'amélioration de nos services.
