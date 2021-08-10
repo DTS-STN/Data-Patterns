@@ -7,10 +7,8 @@ date-modified: 2021-07-07
 ---
 
 Reusable patterns and components that give users more power over their data and help teams build trustworthy digital services.
-Leanr more [about data patterns](about.html) and how you can use them.
+Learn more [about data patterns](about.html) and how you can use them.
 
 ## Patterns
 
 {% include pattern-cards.html %}
-
-
