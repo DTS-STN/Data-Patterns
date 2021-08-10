@@ -6,12 +6,10 @@ lang: fr
 date-modified: 2021-07-07
 ---
 
+Des modèles et des composants de conception réutilisables qui donnent aux gens plus de pouvoir sur leurs données et aident les équipes à créer des services numériques fiables.
+Apprenez plus [à propos les modèles de données](about-fr.html) et comment les utiliser.
+
+
 ## Les modèles
 
 {% include pattern-cards.html %}
-
-## À propos des modèles de données
-
-Qu'est-ce qu'ils sont ?
-Comment les utiliser ?
-[Apprenez à les connaître et à connaître ce projet.](about-fr.html)
