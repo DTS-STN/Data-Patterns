@@ -25,7 +25,7 @@ jobs:
         bundle install
         bundle exec jekyll build JEKYLL_ENV=prod --config _config.yml,_config_prod.yml
 
-    - name: Login to DockerHub
+    - name: Login to MTS
       uses: docker/login-action@v1 
       with:
         registry: mtscontainers.azurecr.io
@@ -39,3 +39,15 @@ jobs:
       run: |
         docker build -t mtscontainers.azurecr.io/data-patterns:latest .
         docker push mtscontainers.azurecr.io/data-patterns:latest
+        
+    - name: Login to BDM
+      uses: docker/login-action@v1 
+      with:
+        registry: esdcdpsbdmk8sprototypeacr.azurecr.io
+        username: ${{ secrets.AZURE_GITHUB_SPN_ID }}
+        password: ${{ secrets.AZURE_GITHUB_SPN_PASS }}
+        
+    - name: Manual Docker
+      run: |
+        docker tag mtscontainers.azurecr.io/data-patterns:latest esdcdpsbdmk8sprototypeacr.azurecr.io/data-patterns:latest
+        docker push esdcdpsbdmk8sprototypeacr.azurecr.io/data-patterns:latest
