@@ -12,11 +12,14 @@ extraEnv:
 ingress:
       enabled: true
       hosts:
-      {{- if or (eq .Environment.Name "prod-blue") (eq .Environment.Name "prod-green") (eq .Environment.Name "prototype")}}
-          - datapatterns.{{ requiredEnv "BASE_DOMAIN" }}
+      {{- if or (eq .Environment.Name "prod-blue") (eq .Environment.Name "prod-green")}}
+          - dpl-bmd.{{ requiredEnv "BASE_DOMAIN" }}
+      {{ else if (eq .Environment.Name "prototype")}}
+          - dpl-bmd.alpha.service.canada.ca
+          - dpl-bmd.prototype-admin.dts-stn.com          
       {{ else }}
-          - datapatterns-{{ .Environment.Name }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
-          - datapatterns.{{ requiredEnv "BASE_DOMAIN_DEV" }}
+          - dpl-bmd-{{ .Environment.Name }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
+          - dpl-bmd.{{ requiredEnv "BASE_DOMAIN_DEV" }}
       {{ end }} 
       annotations: {}
       # kubernetes.io/ingress.class: traefik
