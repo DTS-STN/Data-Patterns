@@ -3,6 +3,12 @@ image:
   tag: "{{ requiredEnv "DOCKER_TAG" }}" 
   pullPolicy: Always
 
+{{ if (eq .Environment.Name "prototype")}}  
+replicaCount: 2
+{{ else }}
+replicaCount: 1
+{{ end}}
+
 extraEnv:
   - name: NOTIFY_BASE_API_URL
     value: "https://api.notification.canada.ca"
