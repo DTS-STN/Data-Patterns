@@ -1,5 +1,5 @@
 image:
-  repository: mtscontainers.azurecr.io/data-patterns
+  repository: "{{ requiredEnv "ACR_DOMAIN" }}/{{ requiredEnv "PROJECT" }}"
   tag: "{{ requiredEnv "DOCKER_TAG" }}" 
   pullPolicy: Always
 
@@ -12,11 +12,14 @@ extraEnv:
 ingress:
       enabled: true
       hosts:
-      {{- if or (eq .Environment.Name "prod-blue") (eq .Environment.Name "prod-green") (eq .Environment.Name "prototype")}}
-          - datapatterns.{{ requiredEnv "BASE_DOMAIN" }}
+      {{- if or (eq .Environment.Name "prod-blue") (eq .Environment.Name "prod-green") }}
+          - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN" }}
+      {{ else if (eq .Environment.Name "prototype")}}
+          - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN" }}
+          - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
       {{ else }}
-          - datapatterns-{{ .Environment.Name }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
-          - datapatterns.{{ requiredEnv "BASE_DOMAIN_DEV" }}
+          - {{ requiredEnv "PROJECT" }}-{{ .Environment.Name }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
+          - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
       {{ end }} 
       annotations: {}
       # kubernetes.io/ingress.class: traefik

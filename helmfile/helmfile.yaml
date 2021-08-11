@@ -16,7 +16,7 @@ environments:
 
 releases:
 # data-patterns
-  - name: data-patterns-{{ .Environment.Name }}
+  - name: datapat-{{ .Environment.Name }}
     chart: ../helm/charts/data-patterns
     version: 0.0.1
     values:
