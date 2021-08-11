@@ -49,5 +49,5 @@ jobs:
         
     - name: Manual Docker
       run: |
-        docker tag mtscontainers.azurecr.io/data-patterns:latest esdcdpsbdmk8sprototypeacr.azurecr.io/dpl-bmd:latest
-        docker push esdcdpsbdmk8sprototypeacr.azurecr.io/dpl-bmd:latest
+        docker tag mtscontainers.azurecr.io/data-patterns:${{ github.run_number }}  esdcdpsbdmk8sprototypeacr.azurecr.io/dpl-bmd:${{ github.run_number }} 
+        docker push esdcdpsbdmk8sprototypeacr.azurecr.io/dpl-bmd:${{ github.run_number }} 
