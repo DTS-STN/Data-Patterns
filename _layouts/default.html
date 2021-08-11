@@ -76,6 +76,14 @@
           </div>
         </section>
         
+        <p class="small">
+        {% if page.lang == 'en' %}
+          All content of the Data Patterns Library is available under the <a href="https://open.canada.ca/en/open-government-licence-canada" target="_blank">Open Government Licence - Canada</a>
+        {% else %}
+          Tout le contenu de la bibliothèque de modèles de données est disponible sous la licence <a href="https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada" target="_blank">Licence du gouvernement ouvert – Canada</a>
+        {% endif %}
+        </p>
+
         {% include preFooter.html %}
 
       </div>
