@@ -38,7 +38,7 @@ You can also send an email to sarah.ingle@servicecanada.gc.ca with feedback at a
    ```
 
    or
-   
+
    ```bash
    bundle exec jekyll serve
    ```
