@@ -35,7 +35,11 @@ You can also send an email to sarah.ingle@servicecanada.gc.ca with feedback at a
 
    ```bash
    npm start
-   : or
+   ```
+
+   or
+   
+   ```bash
    bundle exec jekyll serve
    ```
 
