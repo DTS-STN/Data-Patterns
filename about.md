@@ -1,7 +1,8 @@
 ---
 layout: default
 title: About Data Patterns
-lang-link: about-fr.html
+permalink: /about
+lang-link: a-propos
 lang: en
 date-modified: 2021-07-16
 ---
