@@ -14,6 +14,37 @@ If you're interested in contributing to this work, please review our [CONTRIBUTI
 
 You can also send an email to sarah.ingle@servicecanada.gc.ca with feedback at anytime.
 
+## Repo Notes
+
+### Core technology used
+
+* [CDTS](https://cenw-wscoe.github.io/sgdc-cdts/docs/index-en.html) - implementing [WET-BOEW](https://wet-boew.github.io/wet-boew-styleguide/index-en.html) - As the front end design framework (no install necessary)
+* [Jekyll](https://jekyllrb.com/) - As the HTML compiler from MD (runs on ruby gems bundler)
+* [markdownlint] - for markdown syntax check (runs with npm)
+
+### Getting started locally
+
+1. Ensure the core technologies are installed.
+2. Install the dependancies
+
+   ```bash
+   bundle install
+   ```
+
+3. Run the compiler and local host provider
+
+   ```bash
+   npm start
+   : or
+   bundle exec jekyll serve
+   ```
+
+Execute the markdown syntax check
+
+```bash
+npm test
+```
+
 ## Acknowledgements
 
 We're building on leading work from other governments, organizations, and communities to make the technologies we use everyday more private, safe, and equitable.
