@@ -1,7 +1,8 @@
 ---
 layout: default
 title: À propos des modèles de données
-lang-link: about.html
+permalink: /a-propos
+lang-link: about
 lang: fr
 date-modified: 2021-07-16
 ---
@@ -75,7 +76,7 @@ Ainsi, notre seul défaut est de veiller à ce que leurs divers besoins soient e
 
 Les différents composants du modèle sont destinés à différents utilisateurs (concepteurs de services, développeurs, experts en politique, chercheurs, etc.), généralement au sein d'une équipe.
 
-Consultez notre [template (sur GitHub)](https://github.com/DTS-STN/Data-Patterns/blob/main/_patterns/_template.md) pour obtenir des descriptions de ces composants ou des conseils pour commencer à développer votre propre modèle.
+Consultez notre [template (sur GitHub)](https://github.com/DTS-STN/Data-Patterns/blob/main/_patterns/_template-fr.md) pour obtenir des descriptions de ces composants ou des conseils pour commencer à développer votre propre modèle.
 
 Avant d'utiliser un modèle, vous devriez également vérifier l'état du modèle via `{{ page.status }}` ou la bannière d'alerte sous le titre du modèle sur une page web.
 
