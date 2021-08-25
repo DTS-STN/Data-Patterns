@@ -1,71 +1,61 @@
 ---
 layout: default
-name: Test Pattern In FRENCH
-short-description: This pattern is a test template for the french page.
-lang-link: test.html
+name: Modèle de test
+short-description: Un modèle pour tester et créer de nouveaux modèles.
+feature-img-path: 
+feature-img-alt: 
+permalink: /modeles/model
+lang-link: ../patterns/template
 lang: fr
-status: en développement
-date-modified: 2021-07-09
+status: en développement / en train d'être testé / activement utilisé
+date-modified: 2021-01-01
 ---
 
 {% include pattern-summary.html %}
 
-## When to use this pattern
+C'est là que vous ajouteriez une longue description du modèle.
 
-* List
-* Some
-* Advantages
+## Quand utiliser ce modèle
 
-## When not to use this pattern
+Décrivez quand quelqu'un devrait utiliser le modèle ici.
 
-* List
-* The
-* Limitations
+## Quand ne pas utiliser ce modèle
 
-## How it works
+Décrivez quand quelqu'un ne devrait **pas** utiliser le modèle.
 
-Describe how to implement the pattern
-Embed relevant components and code snippets with examples
+## Comment ça fonctionne
 
-### Component 1
+Expliquez en détail comment un modèle serait mis en œuvre et ce qu'il permet de réaliser.
 
-Describe the component
+### Partie 1
+
+Découpez-le en plusieurs parties et expliquez chacune d'elles.
 
 <section>
-    <h4>Example of Component 1</h4>
+    <h4>Exemple de la partie 1</h4>
     <div class="panel panel-default pattern-demo">
         <div class="panel-body">
-            <p>This is the example!</p>
+            <p class="h2 mrgn-tp-sm">Exemple de la partie 1</p>
+            <p>Montrez à quoi cela ressemblerait avec un exemple et incluez un extrait de code de ce qui est réellement fait pour y parvenir !</p>
         </div>
     </div>
     <details>
         <summary>Code</summary>
-        <pre><code>&lt;section>
-    &lt;h4>Example of Component 1&lt;/h4>
-    &lt;div class="panel panel-default pattern-demo">
-        &lt;div class="panel-body">
-            &lt;p>This is the example!&lt;/p>
-        &lt;/div>
-    &lt;/div>
-    &lt;details>
-        &lt;summary>Code&lt;/summary>
-        &lt;pre>&lt;code>&amp;lt;p>This is the example!
-...
-&amp;lt;/p>&lt;/code>&lt;/pre>
-    &lt;/details>
-&lt;/section></code></pre>
+        <pre><code>&lt;h2>Exemple de la partie 1&lt;/h2>
+&lt;p>Montrez à quoi cela ressemblerait avec un exemple et incluez un extrait de code de ce qui est réellement fait pour y parvenir !&lt;/p></code></pre>
     </details>
 </section>
 
-## Research and Impacts
+## Recherche et impacts
 
-Add a short description
+Ajoutez la recherche et les impacts du modèle ici.
 
-* Link to relevant research
-* Link to laws, policies, or assessments
+## Modèles et composants connexes
 
-## Recent changes
+* [Ajouter des liens](#link)
+* [vers les modèles associés](#lien)
+* [et composants ici](#link)
 
-* List
-* Recent
-* Changes
+## Changements récents
+
+* 2021-01-01 - Début du développement
