@@ -62,7 +62,7 @@ Some places, people, and practices we've looked to for inspiration include:
 
 ## License
 
-Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada [Copyright Canada](LICENSE).
+Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distrubuted under the [MIT](LICENSE).
 
 The Canada wordmark and related graphics associated with this distribution are protected under trademark law and copyright law.
 No permission is granted to use them outside the parameters of the Government of Canada's corporate identity program.
@@ -97,7 +97,7 @@ Parmi les lieux, les personnes et les pratiques dont nous nous sommes inspirés,
 
 ## Licence / License
 
-Sauf indication contraire, le code source de ce projet est couvert par le droit d'auteur de la Couronne, Gouvernement du Canada [Copyright Canada](LICENSE)
+Sauf indication contraire, le code source de ce projet est couvert par le droit d'auteur de la Couronne, Gouvernement du Canada, et est distribué sous le [MIT](LICENSE)
 
 Le mot-symbole Canada et les graphiques connexes associés à cette distribution sont protégés par le droit des marques et le droit d'auteur.
 Aucune permission n'est accordée pour les utiliser en dehors des paramètres du programme d'image de marque du Gouvernement du Canada.
