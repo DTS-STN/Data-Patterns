@@ -4,8 +4,8 @@ name: Opter pour donner son consentement
 short-description: Informer l'utilisateur de la collecte de données et lui demander de donner son consentement.
 feature-img-path: assets/images/opt-in-fr.png
 feature-img-alt: Politique de confidentialité avec une case à cocher pour l'acceptation et un bouton d'envoi.
-permalink: /modeles/opter
-lang-link: ../patterns/optin
+permalink: /modeles/opter.html
+lang-link: ../patterns/optin.html
 lang: fr
 status: en cours de développement
 date-modified: 2021-07-22

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: À propos des modèles de données
-permalink: /a-propos
-lang-link: about
+permalink: /a-propos.html
+lang-link: about.html
 lang: fr
 date-modified: 2021-07-16
 ---

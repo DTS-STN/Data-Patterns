@@ -7,7 +7,7 @@ date-modified: 2021-07-07
 ---
 
 Des modèles et des composants de conception réutilisables qui donnent aux gens plus de pouvoir sur leurs données et aident les équipes à créer des services numériques fiables.
-Apprenez plus [à propos les modèles de données](a-propos) et comment les utiliser.
+Apprenez plus [à propos les modèles de données](a-propos.html) et comment les utiliser.
 
 ## Les modèles
 
