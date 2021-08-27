@@ -13,23 +13,41 @@ date-modified: 2021-01-01
 
 {% include pattern-summary.html %}
 
-C'est là que vous ajouteriez une longue description du modèle.
+_Ajouter une description brève du modèle._
+
+Cette modèle demande à l'utilisateur de:
+
+* Action 1
+* Action 2
+* Action 3
 
 ## Quand utiliser ce modèle
 
-Décrivez quand quelqu'un devrait utiliser le modèle ici.
+_Décrivez quand quelqu'un devrait utiliser le modèle ici._
+
+Utilisez cette modèle lorsque:
+
+* Critères 1
+* Critères 2
+* Critères 3
 
 ## Quand ne pas utiliser ce modèle
 
-Décrivez quand quelqu'un ne devrait **pas** utiliser le modèle.
+_Décrivez quand quelqu'un ne devrait **pas** utiliser le modèle._
+
+N'utilisez pas cette modèle lorsque:
+
+* Critères 1
+* Critères 2
+* Critères 3
 
 ## Comment ça fonctionne
 
-Expliquez en détail comment un modèle serait mis en œuvre et ce qu'il permet de réaliser.
+_Expliquez en détail comment un modèle serait mis en œuvre et ce qu'il permet de réaliser._
 
 ### Partie 1
 
-Découpez-le en plusieurs parties et expliquez chacune d'elles.
+_Découpez-le en plusieurs parties et expliquez chacune d'elles._
 
 <section>
     <h4>Exemple de la partie 1</h4>
@@ -48,7 +66,14 @@ Découpez-le en plusieurs parties et expliquez chacune d'elles.
 
 ## Recherche et impacts
 
-Ajoutez la recherche et les impacts du modèle ici.
+_Ajoutez la recherche et les impacts du modèle ici._
+
+_Partagez des liens vers:_
+
+* les résultats de la recherche, y compris la recherche sur les utilisateurs et les résultats des tests
+* la documentation technique ou de conception
+* évaluations de l'accessibilité, de la confidentialité ou de la sécurité
+* lois ou politiques
 
 ## Modèles et composants connexes
 
