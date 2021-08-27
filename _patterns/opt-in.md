@@ -4,8 +4,8 @@ name: Opt-in to give consent
 short-description: Notifying the user of data collection and asking them to consent to it.
 feature-img-path: assets/images/opt-in.png
 feature-img-alt: Privacy policy with with checkbox prompt to agree and submit button.
-permalink: /patterns/optin
-lang-link: ../modeles/opter
+permalink: /patterns/optin.html
+lang-link: ../modeles/opter.html
 lang: en
 status: under development
 date-modified: 2021-07-22

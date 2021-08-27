@@ -4,8 +4,8 @@ name: Modèle de test
 short-description: Un modèle pour tester et créer de nouveaux modèles.
 feature-img-path: 
 feature-img-alt: 
-permalink: /modeles/model
-lang-link: ../patterns/template
+permalink: /modeles/model.html
+lang-link: ../patterns/template.html
 lang: fr
 status: en développement / en train d'être testé / activement utilisé
 date-modified: 2021-01-01

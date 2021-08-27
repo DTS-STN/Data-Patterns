@@ -4,8 +4,8 @@ name: Testing Template
 short-description: A template to test and create new patterns.
 feature-img-path: 
 feature-img-alt: 
-permalink: /patterns/template
-lang-link: ../modeles/model
+permalink: /patterns/template.html
+lang-link: ../modeles/model.html
 lang: en
 status: under development / being tested / actively used
 date-modified: 2021-01-01
