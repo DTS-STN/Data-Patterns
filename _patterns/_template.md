@@ -79,7 +79,7 @@ _Share links to:_
 
 _Add links to related patterns or components._
 
-* [Link 1] (#link)
+* [Link 1](#link)
 * [Link 2](#link)
 * [Link 3](#link)
 
