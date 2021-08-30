@@ -48,7 +48,7 @@ jobs:
     - name: Login to BDM
       uses: docker/login-action@v1 
       with:
-        registry: ${{ github.BDM_REGISTRY }}
+        registry: esdcdpsbdmk8sprototypeacr.azurecr.io
         username: ${{ secrets.AZURE_GITHUB_SPN_ID }}
         password: ${{ secrets.AZURE_GITHUB_SPN_PASS }}
         
