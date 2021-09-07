@@ -3,7 +3,6 @@ layout: default
 name: Modèle de test
 short-description: Un modèle pour tester et créer de nouveaux modèles.
 feature-img-path: 
-feature-img-alt: 
 permalink: /modeles/model.html
 lang-link: ../patterns/template.html
 lang: fr
