@@ -50,12 +50,12 @@ Be sure to use proper heading levels, typically a `h2` is used.
     <h4>Example of a privacy statement</h4>
     <div class="panel panel-default pattern-demo">
         <div class="panel-body">
-            <p class="h2 mrgn-tp-sm">Privacy policy</p>
+            <p class="h2 mrgn-tp-sm">Privacy policy<span class="sr-only"> [H2]</span></p>
             <p><em>[You can add a custom privacy statement here that adheres to the Government of Canada privacy. It should be clear how the users personal information <strong>will and will not</strong> be used. Examples follow.]</em></p>
             <p>Your information <strong>will not</strong> be used for any decision-making process that affects your access to Government of Canada services. Your personal information <strong>will not</strong> be used for any administrative purposes.</p>
             <p>Your personal information and feedback is confidential.</p>
             <p>Your information <strong>will</strong> be used by Employment and Social Development Canada for <em>[Briefly explain what the information will be used for]</em>.</p>
-            <p class="h3">What we will collect</p>
+            <p class="h3">What we will collect<span class="sr-only"> [H3]</span></p>
             <p>We need the following information so we can <em>[Briefly explain why you need the following data]</em>:</p>
             <ul>
                 <li>Email address</li>
@@ -101,7 +101,7 @@ The section should start with the same level heading as the Privacy statement, t
     <h4>Example of an opt-out description</h4>
     <div class="panel panel-default pattern-demo">
         <div class="panel-body">
-            <p class="h2 mrgn-tp-sm">How to unsubscribe from <em>[identify what the user is unsubscribing from]</em></p>
+            <p class="h2 mrgn-tp-sm">How to unsubscribe from <em>[identify what the user is unsubscribing from]</em><span class="sr-only"> [H2]</span></p>
             <p>If you have previously signed up to become a participant and no longer wish to be contacted for future <em>[explain in detail what the user is unsubscribing from]</em>, you can <a href="#unsubscribe">unsubscribe</a> yourself from the participant list and we will remove your personal information.</p>
         </div>
     </div>
