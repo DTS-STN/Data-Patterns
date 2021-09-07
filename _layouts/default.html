@@ -30,9 +30,12 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script>
-    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-{{ page.lang | default: 'en' }}.js"></script>
+
+    <meta name="dcterms.title" content="{{ page_name }}">
+    <meta name="dcterms.language" content="{{ page.lang }}">
+    <meta name="dcterms.creator" content="">
+    <meta name="dcterms.accessRights" content="2">
+    <meta name="dcterms.service" content="">
 
     <!-- Jekyll SEO tags { % seo % } -->
     <meta name="robots" content="noindex,nofollow">
@@ -42,6 +45,13 @@
 {% else %}    
     <title>{{ site_title }}</title>
 {% endif %}
+    
+    <!-- Adobe Analytics -->
+    <script src="{{ site.adobe-analytics }}"></script>
+
+    <!-- CDTS -->
+    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script>
+    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-{{ page.lang | default: 'en' }}.js"></script>
 
     <script>
       document.write(wet.builder.refTop({
@@ -98,5 +108,7 @@
       document.write(wet.builder.refFooter({}));
     </script>
 
+    <!-- Adobe Analytics -->
+    <script type="text/javascript">_satellite.pageBottom();</script>
   </body>
 </html>
