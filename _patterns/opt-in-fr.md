@@ -49,12 +49,12 @@ Veillez à utiliser les niveaux de titre appropriés, généralement un `h2` est
     <h4>Exemple de déclaration de confidentialité</h4>
     <div class="panel panel-default pattern-demo">
         <div class="panel-body">
-            <p class="h2 mrgn-tp-sm">Politique de confidentialité</p>
+            <p class="h2 mrgn-tp-sm">Politique de confidentialité<span class="sr-only"> [H2]</span></p>
             <p><em>[Vous pouvez ajouter ici une déclaration de confidentialité personnalisée qui respecte la politique de confidentialité du gouvernement du Canada. Elle doit indiquer clairement comment les informations personnelles de l'utilisateur <strong>seront ou ne seront pas</strong> utilisées. Des exemples suivent.]</em></p>
             <p>Vos informations <strong>ne seront pas</strong> utilisées dans le cadre d'un processus décisionnelqui affecte votre accès aux services du Gouvernement du Canada. Vos renseignements personnels <strong>ne seront pas</strong> utilisés à des fins administratives.</p>
             <p>Vos renseignements personnels et vos commentaires sont confidentiels.</p>
             <p>Vos renseignements <strong>seront</strong> utilisés par Emploi et Développement Social Canada pour <em>[expliquer brièvement à quoi serviront les renseignements]</em>.</p>
-            <p class="h3">Ce que nous allons recueillir</p>
+            <p class="h3">Ce que nous allons recueillir<span class="sr-only"> [H3]</span></p>
             <p>Nous avons besoin des renseignements suivants pour <em>[expliquer brièvement pourquoi vous avez besoin des données suivantes]</em>:</p>
             <ul>
                 <li>Adresse de courriel</li>
@@ -100,7 +100,7 @@ La section doit commencer par un titre de même niveau que la déclaration de co
     <h4>Exemple de description de désabonnement</h4>
     <div class="panel panel-default pattern-demo">
         <div class="panel-body">
-            <p class="h2 mrgn-tp-sm">Comment se désabonner de <em>[identifier de quoi l'utilisateur se désabonne]</em></p>
+            <p class="h2 mrgn-tp-sm">Comment se désabonner de <em>[identifier de quoi l'utilisateur se désabonne]</em><span class="sr-only"> [H2]</span></p>
             <p>Si vous vous êtes précédemment inscrit pour devenir un participant et que vous ne souhaitez plus être contacté à l'avenir <em>[expliquez en détail ce dont l'utilisateur se désabonne]</em>, vous pouvez vous <a href="#desabonner">désabonner</a> de la liste des participants et nous supprimerons vos informations personnelles.</p>
         </div>
     </div>
