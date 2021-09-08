@@ -15,7 +15,8 @@
   {% assign alpha_proj_link = "https://alpha.service.canada.ca/projects" %}
   {% assign alpha_warning = "Parts of this site may not work and will change" %}
   {% assign contribute_title = "Contribute to a Data Pattern" %}      
-  {% assign contribute_description = "We love receiving feedback! If you notice something we should fix or if you would like to add a new one to our list, please make that request by forking the project and submitting a Pull Request to our GitHub repository. You can also send us an email." %}      
+  {% assign contribute_description = "We love receiving feedback! If you notice something we should fix or if you would like to add a new one to our list, please make that request by forking the project and submitting a Pull Request to our GitHub repository. You can also send us an email." %}
+  {% assign creator = "Employment and Social Development Canada" %}
 {% else %}
   {% assign site_title = site.title-fr %}
   {% assign alpha_tag = "Site d’essai" %}
@@ -24,6 +25,7 @@
   {% assign alpha_warning = "Certaines parties des laboratoires pourraient ne pas fonctionner." %}
   {% assign contribute_title = "Contribuer à un modèle de données" %}
   {% assign contribute_description = "Nous aimons recevoir des commentaires ! Si vous remarquez quelque chose que nous devrions corriger ou si vous souhaitez ajouter un nouveau modèle à notre liste, veuillez en faire la demande en créant une bifurcation du projet et en soumettant une demande de transfert à notre dépôt GitHub. Vous pouvez également nous envoyer un courriel." %} 
+  {% assign creator = "Emploi et Développement social Canada" %}
 {% endif %}
 
   <head>
@@ -33,9 +35,9 @@
 
     <meta name="dcterms.title" content="{{ page_name }}">
     <meta name="dcterms.language" content="{{ page.lang }}">
-    <meta name="dcterms.creator" content="">
+    <meta name="dcterms.creator" content="{{ creator }}">
     <meta name="dcterms.accessRights" content="2">
-    <meta name="dcterms.service" content="">
+    <meta name="dcterms.service" content="ESDC-EDSC_DataPatterns-ModelsDonnees">
 
     <!-- Jekyll SEO tags { % seo % } -->
     <meta name="robots" content="noindex,nofollow">
