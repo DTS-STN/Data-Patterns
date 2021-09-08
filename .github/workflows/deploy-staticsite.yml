@@ -1,6 +1,11 @@
 name: Build Container and Push Latest
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  
+  push:
+    branches:
+      - prod
 
 jobs:
   build_docker_push:
