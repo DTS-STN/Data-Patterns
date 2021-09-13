@@ -9,6 +9,7 @@
 {% endif %} 
 
 {% if page.lang == 'en' %}
+  {% assign aalang = 'eng' %}
   {% assign site_title = site.title %}
   {% assign alpha_tag = "Test site" %}
   {% assign alpha_proj_link_text = "Back to projects" %}
@@ -18,6 +19,7 @@
   {% assign contribute_description = "We love receiving feedback! If you notice something we should fix or if you would like to add a new one to our list, please make that request by forking the project and submitting a Pull Request to our GitHub repository. You can also send us an email." %}
   {% assign creator = "Employment and Social Development Canada" %}
 {% else %}
+  {% assign aalang = 'fra' %}
   {% assign site_title = site.title-fr %}
   {% assign alpha_tag = "Site d’essai" %}
   {% assign alpha_proj_link_text = "Retour aux projets" %}
@@ -34,7 +36,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="dcterms.title" content="{{ page_name }}">
-    <meta name="dcterms.language" content="{{ page.lang }}">
+    <meta name="dcterms.language" content="{{ aalang }}">
     <meta name="dcterms.creator" content="{{ creator }}">
     <meta name="dcterms.accessRights" content="2">
     <meta name="dcterms.service" content="ESDC-EDSC_DataPatterns-ModelsDonnees">
