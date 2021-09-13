@@ -3,7 +3,6 @@ layout: default
 name: Testing Template
 short-description: A template to test and create new patterns.
 feature-img-path: 
-feature-img-alt: 
 permalink: /patterns/template.html
 lang-link: ../modeles/model.html
 lang: en
