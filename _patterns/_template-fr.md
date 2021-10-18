@@ -12,48 +12,48 @@ date-modified: 2021-01-01
 
 {% include pattern-summary.html %}
 
-_Ajouter une description brève du modèle._
+[Ajoutez une description brève du modèle.]
 
-Cette modèle demande à l'utilisateur de:
+Ce modèle demande à l'utilisateur de :
 
-* Action 1
-* Action 2
-* Action 3
+* [Action 1]
+* [Action 2]
+* [Action 3]
 
 ## Quand utiliser ce modèle
 
-_Décrivez quand quelqu'un devrait utiliser le modèle ici._
+[Décrivez quand ce modèle devrait être utilisé.]
 
-Utilisez cette modèle lorsque:
+Utiliser ce modèle lorsque :
 
-* Critères 1
-* Critères 2
-* Critères 3
+* [Critères 1]
+* [Critères 2]
+* [Critères 3]
 
 ## Quand ne pas utiliser ce modèle
 
-_Décrivez quand quelqu'un ne devrait **pas** utiliser le modèle._
+[Décrivez quand ce modèle ne devrait pas être utilisé.]
 
-N'utilisez pas cette modèle lorsque:
+Ne pas utiliser ce modèle lorsque :
 
-* Critères 1
-* Critères 2
-* Critères 3
+* Critère 1
+* Critère 2
+* Critère 3
 
-## Comment ça fonctionne
+## Comment ce modèle fonctionne
 
-_Expliquez en détail comment un modèle serait mis en œuvre et ce qu'il permet de réaliser._
+[Expliquez en détails comment le modèle pourrait être mis en œuvre et ce qu'il permettrait de réaliser.]
 
 ### Partie 1
 
-_Découpez-le en plusieurs parties et expliquez chacune d'elles._
+[Découpez-le en plusieurs parties et expliquez chacune d'elles.]
 
 <section>
-    <h4>Exemple de la partie 1</h4>
+    <h4>Exemple de [la partie 1]</h4>
     <div class="panel panel-default pattern-demo">
         <div class="panel-body">
-            <p class="h2 mrgn-tp-sm">Exemple de la partie 1</p>
-            <p>Montrez à quoi cela ressemblerait avec un exemple et incluez un extrait de code de ce qui est réellement fait pour y parvenir !</p>
+            <p class="h2 mrgn-tp-sm">[Exemple de la partie 1]</p>
+            <p>[Montrez à quoi cela ressemblerait avec un exemple et incluez un extrait de code de ce qui est réellement fait pour y parvenir !]</p>
         </div>
     </div>
     <details>
@@ -65,21 +65,23 @@ _Découpez-le en plusieurs parties et expliquez chacune d'elles._
 
 ## Recherche et impacts
 
-_Ajoutez la recherche et les impacts du modèle ici._
+[Ajoutez la recherche et les impacts du modèle.]
 
-_Partagez des liens vers:_
+[Partagez des liens vers :
 
 * les résultats de la recherche, y compris la recherche sur les utilisateurs et les résultats des tests
 * la documentation technique ou de conception
 * évaluations de l'accessibilité, de la confidentialité ou de la sécurité
-* lois ou politiques
+* lois ou politiques]
 
 ## Modèles et composants connexes
 
-* [Ajouter des liens](#link)
-* [vers les modèles associés](#lien)
-* [et composants ici](#link)
+[Ajoutez les liens vers les modèles et les composants connexes.]
 
-## Changements récents
+* [Lien 1](#link)
+* [Lien 2](#lien)
+* [Lien 3](#link)
 
-* 2021-01-01 - Début du développement
+## Récents changements
+
+* [2021-01-01] - [Début du développement]

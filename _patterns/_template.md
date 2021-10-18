@@ -12,48 +12,48 @@ date-modified: 2021-01-01
 
 {% include pattern-summary.html %}
 
-_Add a brief description of the pattern._
+[Add a brief description of the pattern.]
 
-This patterns asks the user to:
+This pattern asks the user to:
 
-* Action 1
-* Action 2
-* Action 3
+* [Action 1]
+* [Action 2]
+* [Action 3]
 
 ## When to use this pattern
 
-_Describe when someone should be using the pattern here._
+[Describe when this pattern should be used.]
 
 Use this pattern when:
 
-* Criteria 1
-* Criteria 2
-* Criteria 3
+* [Criteria 1]
+* [Criteria 2]
+* [Criteria 3]
 
 ## When not to use this pattern
 
-_Describe when someone should **not** be using the pattern._
+[Describe when this pattern should **not** be used.]
 
 Don't use this pattern when:
 
-* Criteria 1
-* Criteria 2
-* Criteria 3
+* [Criteria 1]
+* [Criteria 2]
+* [Criteria 3]
 
-## How it works
+## How this pattern works
 
-_Get into detail about how the pattern would be implemented and what it achieves._
+[Get into detail about how the pattern would be implemented and what it achieves.]
 
 ### Part 1
 
-_Break it down into parts and explain each one._
+[Break it down into parts and explain each one.]
 
 <section>
-    <h4>Example of part 1</h4>
+    <h4>[Example of part 1]</h4>
     <div class="panel panel-default pattern-demo">
         <div class="panel-body">
-            <p class="h2 mrgn-tp-sm">Part 1 example</p>
-            <p>Show what it would look like with an example and include a code snippet of what's actually being done to achieve it!</p>
+            <p class="h2 mrgn-tp-sm">[Part 1 example]</p>
+            <p>[Show what it would look like with an example and include a code snippet of what is done to achieve it!]</p>
         </div>
     </div>
     <details>
@@ -65,23 +65,23 @@ _Break it down into parts and explain each one._
 
 ## Research and impacts
 
-_Add the research and impacts of the pattern here._
+[Add the research and impacts of the pattern here.]
 
-_Share links to:_
+[Share links to:
 
 * research findings, including user research and testing results
 * design or technical documentation
 * accessibility, privacy, or security assessments
-* laws or policies
+* laws or policies]
 
 ## Related patterns and components
 
-_Add links to related patterns or components._
+[Add links to related patterns or components.]
 
-* [Link 1](#link)
-* [Link 2](#link)
-* [Link 3](#link)
+* [[Link 1]](#link)
+* [[Link 2]](#link)
+* [[Link 3]](#link)
 
 ### Recent changes
 
-* 2021-01-01 - Started development
+* [2021-01-01] - [Started development]

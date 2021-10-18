@@ -20,13 +20,13 @@ ______________________
 
 ## Comment contribuer
 
-Lorsque vous contribuez, veuillez également publier des commentaires et discuter des modifications que vous souhaitez apporter par l'entremise des enjeux (Issues).
+Lorsque vous contribuez, veuillez également publier des commentaires et discuter des modifications que vous souhaitez apporter par l'entremise des enjeux (issues).
 
-N'hésitez pas à proposer des modifications en créant des demandes de tirage (Pull Requests). Si vous n'avez pas accès au mode de rédaction, la modification d'un fichier créera une copie (Fork) de ce projet afin que vous puissiez enregistrer les modifications que vous proposez. Le fait de proposer une modification à un fichier l'écrira dans une nouvelle branche dans votre copie (Fork), de sorte que vous puissiez envoyer une demande de tirage (Pull Request).
+N'hésitez pas à proposer des modifications en créant des demandes de transfert _(pull requests)_. Si vous n'avez pas accès au mode d’édition, la modification d'un fichier créera une copie (fork) de ce projet afin que vous puissiez enregistrer les modifications que vous proposez. Le fait de proposer une modification à un fichier l'écrira dans une nouvelle branche dans votre copie (fork), de sorte que vous puissiez envoyer une demande de transfert (pull request).
 
 Si c'est la première fois que vous contribuez à GitHub, ne vous en faites pas! Faites-nous part de vos questions.
 
-Vous pouvez également nous contacter par email à sarah.ingle@servicecanada.gc.ca
+Vous pouvez également nous contacter par courriel à sarah.ingle@servicecanada.gc.ca
 
 ### Sécurité
 
