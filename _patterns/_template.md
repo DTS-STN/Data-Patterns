@@ -12,48 +12,48 @@ date-modified: 2021-01-01
 
 {% include pattern-summary.html %}
 
-[Add a brief description of the pattern.]
+_Add a brief description of the pattern._
 
-This pattern asks the user to:
+This patterns asks the user to:
 
-* [Action 1]
-* [Action 2]
-* [Action 3]
+* Action 1
+* Action 2
+* Action 3
 
 ## When to use this pattern
 
-[Describe when this pattern should be used.]
+_Describe when someone should be using the pattern here._
 
 Use this pattern when:
 
-* [Criteria 1]
-* [Criteria 2]
-* [Criteria 3]
+* Criteria 1
+* Criteria 2
+* Criteria 3
 
 ## When not to use this pattern
 
-[Describe when this pattern should **not** be used.]
+_Describe when someone should **not** be using the pattern._
 
 Don't use this pattern when:
 
-* [Criteria 1]
-* [Criteria 2]
-* [Criteria 3]
+* Criteria 1
+* Criteria 2
+* Criteria 3
 
-## How this pattern works
+## How it works
 
-[Get into detail about how the pattern would be implemented and what it achieves.]
+_Get into detail about how the pattern would be implemented and what it achieves._
 
 ### Part 1
 
-[Break it down into parts and explain each one.]
+_Break it down into parts and explain each one._
 
 <section>
-    <h4>[Example of part 1]</h4>
+    <h4>Example of part 1</h4>
     <div class="panel panel-default pattern-demo">
         <div class="panel-body">
-            <p class="h2 mrgn-tp-sm">[Part 1 example]</p>
-            <p>[Show what it would look like with an example and include a code snippet of what is done to achieve it!]</p>
+            <p class="h2 mrgn-tp-sm">Part 1 example</p>
+            <p>Show what it would look like with an example and include a code snippet of what's actually being done to achieve it!</p>
         </div>
     </div>
     <details>
@@ -65,23 +65,23 @@ Don't use this pattern when:
 
 ## Research and impacts
 
-[Add the research and impacts of the pattern here.]
+_Add the research and impacts of the pattern here._
 
-[Share links to:
+_Share links to:_
 
 * research findings, including user research and testing results
 * design or technical documentation
 * accessibility, privacy, or security assessments
-* laws or policies]
+* laws or policies
 
 ## Related patterns and components
 
-[Add links to related patterns or components.]
+_Add links to related patterns or components._
 
-* [[Link 1]](#link)
-* [[Link 2]](#link)
-* [[Link 3]](#link)
+* [Link 1](#link)
+* [Link 2](#link)
+* [Link 3](#link)
 
 ### Recent changes
 
-* [2021-01-01] - [Started development]
+* 2021-01-01 - Started development
