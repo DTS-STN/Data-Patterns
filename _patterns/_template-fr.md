@@ -53,13 +53,13 @@ _Découpez-le en plusieurs parties et expliquez chacune d'elles._
     <div class="panel panel-default pattern-demo">
         <div class="panel-body">
             <p class="h2 mrgn-tp-sm">Exemple de la partie 1</p>
-            <p>Montrez à quoi cela ressemblerait avec un exemple et incluez un extrait de code de ce qui est réellement fait pour y parvenir !</p>
+            <p>Montrez à quoi cela ressemblerait avec un exemple et incluez un extrait de code de ce qui est réellement fait pour y parvenir !</p>
         </div>
     </div>
     <details>
         <summary>Code</summary>
         <pre><code>&lt;h2>Exemple de la partie 1&lt;/h2>
-&lt;p>Montrez à quoi cela ressemblerait avec un exemple et incluez un extrait de code de ce qui est réellement fait pour y parvenir !&lt;/p></code></pre>
+&lt;p>Montrez à quoi cela ressemblerait avec un exemple et incluez un extrait de code de ce qui est réellement fait pour y parvenir !&lt;/p></code></pre>
     </details>
 </section>
 

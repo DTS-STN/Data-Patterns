@@ -31,15 +31,15 @@ Working with users to develop trusted data patterns can also help us avoid dark 
 [Dark patterns](https://www.darkpatterns.org/) are "tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something".
 They [use the power of design](https://dapde.de/en/) to benefit a product's owners or creators more than the people who use it.
 
-Dark patterns can do this in many different ways, but mainly by limiting:
+Dark patterns can do this in many ways, but mainly by limiting:
 
-* **Consent** - the ability for people to choose what data they do and don't want to have collected, used, stored or shared
-* **Openness** - the ability for people to see, understand, and participate in how a service is designed and how it works
-* **Accountability** - the ability to give, receive, and respond to feedback
+* **consent:** the ability for people to choose what data they do and don't want to have collected, used, stored or shared
+* **openness:** the ability for people to see, understand, and participate in how a service is designed and how it works
+* **accountability:** the ability to give, receive, and respond to feedback
 
-#### Example - Cookie pop-up
+#### Example: Cookie pop-up
 
-Although we're only [required by law](https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/FullText.html) to ask people for consent to collect their personal information, it's a good practice to ask whether they are comfortable with other kinds of data collection, including cookie use.
+Although we're only required by [the Privacy Act](https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/FullText.html) to ask people for consent to collect their personal information, it's a good practice to ask whether they are comfortable with other kinds of data collection, including cookie use.
 Websites often do this by asking people to consent to data collection via a cookie pop-up.
 
 A dark pattern for a cookie pop-up might lead you to share more data than you are comfortable with by assuming you want to consent to all cookies, then making it difficult to change your preferences.
@@ -50,9 +50,9 @@ One way to do this is through deceptive patterns like **misdirection** - where a
 
 Another way is through a combination of obstructive patterns including:
 
-* **Pre-selection** - where settings options are selected by default
-* **Click fatigue** - where a user is led to accept a default or easy path by making click paths of different lengths/effort
-* **Hidden information** - where useful options or details are hidden or difficult to access
+* **pre-selection:** where settings options are selected by default
+* **click fatigue:** where a user is led to accept a default or easy path by making click paths of different lengths/effort
+* **hidden information:** where useful options or details are hidden or difficult to access
 
 <img class="img-responsive" src="assets/images/preselection.png" alt="Cookie pop-up box featuring three settings and sliding toggle buttons for each, set to on. Since all settings are pre-selected and there is no option to clear all, the user must click each toggle individually to adjust their settings. Information about the settings is hidden via an &quot;Advanced settings&quot; link. A &quot;Submit&quot; button lets the user confirm their choices.">
 
@@ -60,9 +60,9 @@ Our data patterns aim to counteract dark patterns by supporting and expanding co
 
 A few ways we can do this include:
 
-* Making information **accessible**, with **varying levels of detail**
-* **Not pre-selecting options** or making default assumptions, unless validated by user needs
-* Providing one or low click options to **change settings in bulk** _and_ options to **change individual settings**
+* making information **accessible**, with **varying levels of detail**
+* **not pre-selecting options** or making default assumptions, unless validated by user needs
+* providing one or low click options to **change settings in bulk** and options to **change individual settings**
 
 <img class="img-responsive" src="assets/images/options.png" alt="Cookie pop-up box featuring three settings and sliding toggle buttons for each, set to off. There is a brief description under each setting that can be expanded for more information. Two links allow the user to &quot;Select all&quot; or &quot;Clear all&quot; toggles. A &quot;Submit&quot; button lets the user confirm their choices.">
 
