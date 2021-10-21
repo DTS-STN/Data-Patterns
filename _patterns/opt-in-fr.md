@@ -122,7 +122,7 @@ Action affirmative que l'utilisateur peut entreprendre pour accepter la déclara
             <div class="checkbox-inline">
                 <label for="consent" class="required">
                     <input type="checkbox" id="consent" name="consent" value="consent">
-                    <strong>J’ai lu, compris et accepté de qui précède. J'affirme que j'ai 18 ans ou plus. Je comprends que je peux me retirer de ce <em>[nom duservice]</em> à tout moment sans conséquence. (obligatoire)</strong>
+                    <strong>J’ai lu, compris et accepté de qui précède. J'affirme que j'ai 18 ans ou plus. Je comprends que je peux me retirer de ce <em>[nom duservice]</em> à tout moment sans conséquence.</strong>
                 </label>
             </div>
         </div>
