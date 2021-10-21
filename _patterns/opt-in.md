@@ -122,7 +122,7 @@ An affirmative action the user can take to opt-in by agreeing to the privacy sta
             <div class="checkbox-inline">
                 <label for="consent" class="required">
                     <input type="checkbox" id="consent" name="consent" value="consent">
-                    <strong>I have read, understood and agree to the above. I affirm that I am 18 years old, or older. I understand that I can withdraw from this <em>[service name]</em> at any time without consequence. (required)</strong>
+                    <strong>I have read, understood and agree to the above. I affirm that I am 18 years old, or older. I understand that I can withdraw from this <em>[service name]</em> at any time without consequence.</strong>
                 </label>
             </div>
         </div>
