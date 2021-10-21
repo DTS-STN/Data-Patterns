@@ -138,8 +138,9 @@ Action affirmative que l'utilisateur peut entreprendre pour accepter la déclara
     </details>
 </section>
 
-# Recherche et impactes 
-## Bientôt disponible 
+# Recherche et impactes
+
+## Bientôt disponible
 
 ## Modèles et composants connexes
 
