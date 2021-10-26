@@ -56,6 +56,7 @@
     <!-- CDTS -->
     <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/soyutils.js"></script>
     <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-{{ page.lang | default: 'en' }}.js"></script>
+    <script src="../assets/libraries/clipboard.min.js"></script>
 
     <script>
       document.write(wet.builder.refTop({
@@ -111,6 +112,14 @@
     <script>
       document.write(wet.builder.refFooter({}));
     </script>
+
+<script>
+    new ClipboardJS('.clickToCopyButton', {
+    target: function(trigger) {
+        return trigger.nextElementSibling;
+    }
+});
+</script>
 
     <!-- Adobe Analytics -->
     <script type="text/javascript">_satellite.pageBottom();</script>
