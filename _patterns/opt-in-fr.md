@@ -69,9 +69,7 @@ Veillez à utiliser les niveaux de titre appropriés, généralement un `h2` est
             <p><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Lisez la politique en matière de protection des renseignements personnels dans son intégralité.</a></p>
         </div>
     </div>
-    <details>
-        <summary>Code</summary>
-        <pre><code>&lt;h2>Politique de confidentialité&lt;/h2>
+    {% capture privacyPolicyCode %}&lt;h2>Politique de confidentialité&lt;/h2>
 &lt;p>Vos informations &lt;strong>ne seront pas&lt;/strong> utilisées dans le cadre d'un processus décisionnelqui affecte votre accès aux services du Gouvernement du Canada. Vos renseignements personnels &lt;strong>ne seront pas&lt;/strong> utilisés à des fins administratives.&lt;/p>
 &lt;p>Vos renseignements personnels et vos commentaires sont confidentiels.&lt;/p>
 &lt;p>Vos renseignements &lt;strong>seront&lt;/strong> utilisés par Emploi et Développement Social Canada pour ...&lt;/p>
@@ -87,8 +85,8 @@ Veillez à utiliser les niveaux de titre appropriés, généralement un `h2` est
     &lt;li>...&lt;/li>
 &lt;/ul>
 &lt;p>Nous recueillons ces renseignements pour nous assurer que nos groupes de recherche sont diversifiés et pour déterminer les tendances en matière de rétroaction pour des groupes particuliers.&lt;/p>
-&lt;p>&lt;a href="https://www.canada.ca/fr/transparence/confidentialite.html">Lisez la politique de confidentialité complète.&lt;/a>&lt;/p></code></pre>
-    </details>
+&lt;p>&lt;a href="https://www.canada.ca/fr/transparence/confidentialite.html">Lisez la politique de confidentialité complète.&lt;/a>&lt;/p>{% endcapture %}
+    {% include codeBlock.html content=privacyPolicyCode %}
 </section>
 
 ### Description de l'option de refus
@@ -104,11 +102,9 @@ La section doit commencer par un titre de même niveau que la déclaration de co
             <p>Si vous vous êtes déjà inscrit pour participer et que vous ne souhaitez plus être contacté <em>expliquez en détail ce dont l'utilisateur se désabonne]</em>, vous pouvez vous <a href="#desabonner">désabonner</a> et nous supprimerons vos renseignements personnels.</p>
         </div>
     </div>
-    <details>
-        <summary>Code</summary>
-        <pre><code>&lt;h2>Comment se désabonner de ...&lt;/h2>
-&lt;p>Si vous vous êtes précédemment inscrit pour devenir un participant et que vous ne souhaitez plus être contacté à l'avenir ..., vous pouvez vous &lt;a href="#desabonner">désabonner&lt;/a> de la liste des participants et nous supprimerons vos informations personnelles.&lt;/p></code></pre>
-    </details>
+    {% capture unsubscribeCode %}&lt;h2>Comment se désabonner de ...&lt;/h2>
+&lt;p>Si vous vous êtes précédemment inscrit pour devenir un participant et que vous ne souhaitez plus être contacté à l'avenir ..., vous pouvez vous &lt;a href="#desabonner">désabonner&lt;/a> de la liste des participants et nous supprimerons vos informations personnelles.&lt;/p>{% endcapture %}
+    {% include codeBlock.html content=unsubscribeCode %}
 </section>
 
 ### Action affirmative
@@ -127,15 +123,13 @@ Action affirmative que l'utilisateur peut entreprendre pour accepter la déclara
             </div>
         </div>
     </div>
-    <details>
-        <summary>Code</summary>
-        <pre><code>&lt;div class="checkbox-inline">
+    {% capture affirmativeActionCode %}&lt;div class="checkbox-inline">
     &lt;label for="consent" class="required">
         &lt;input type="checkbox" id="consent" name="consent" value="consent">
         &lt;strong>J'affirme que j'ai 18 ans ou plus. Je comprends que je peux me retirer de ce ... à tout moment sans conséquence.&lt;/strong>
     &lt;/label>
-&lt;/div></code></pre>
-    </details>
+&lt;/div>{% endcapture %}
+    {% include codeBlock.html content=affirmativeActionCode %}
 </section>
 
 # Recherche et impactes

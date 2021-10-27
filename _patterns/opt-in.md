@@ -69,9 +69,7 @@ Be sure to use proper heading levels, typically a `h2` is used.
             <p><a href="https://www.canada.ca/en/transparency/privacy.html">Read the full privacy policy.</a></p>
         </div>
     </div>
-    <details>
-        <summary>Code</summary>
-        <pre><code>&lt;h2>Privacy policy&lt;/h2>
+    {% capture privacyPolicyCode %}&lt;h2>Privacy policy&lt;/h2>
 &lt;p>Your information &lt;strong>will not&lt;/strong> be used for any decision-making process that affects your access to Government of Canada services. Your personal information &lt;strong>will not&lt;/strong> be used for any administrative purposes.&lt;/p>
 &lt;p>Your personal information and feedback are confidential.&lt;/p>
 &lt;p>Your information &lt;strong>will&lt;/strong> be used by Employment and Social Development Canada for ...&lt;/p>
@@ -87,8 +85,8 @@ Be sure to use proper heading levels, typically a `h2` is used.
     &lt;li>...&lt;/li>
 &lt;/ul>
 &lt;p>We collect this information to ensure our research groups are diverse, and to identify trends in feedback for specific groups.&lt;/p>
-&lt;p>&lt;a href="https://www.canada.ca/en/transparency/privacy.html">Read the full privacy policy.&lt;/a>&lt;/p></code></pre>
-    </details>
+&lt;p>&lt;a href="https://www.canada.ca/en/transparency/privacy.html">Read the full privacy policy.&lt;/a>&lt;/p>{% endcapture %}
+    {% include codeBlock.html content=privacyPolicyCode %}
 </section>
 
 ### Opt-out description
@@ -104,11 +102,9 @@ The section should start with the same level heading as the Privacy statement, t
             <p>If you have previously signed up to become a participant and no longer wish to be contacted for future <em>[explain in detail what the user is unsubscribing from]</em>, you can <a href="#unsubscribe">unsubscribe</a> yourself from the participant list and we will remove your personal information.</p>
         </div>
     </div>
-    <details>
-        <summary>Code</summary>
-        <pre><code>&lt;h2>How to unsubscribe from ...&lt;/h2>
-&lt;p>If you have previously signed up to become a participant and no longer wish to be contacted for future ..., you can &lt;a href="#unsubscribe">unsubscribe&lt;/a> yourself from the participant list and we will remove your personal information.&lt;/p></code></pre>
-    </details>
+    {% capture unsubscribeCode %}&lt;h2>How to unsubscribe from ...&lt;/h2>
+&lt;p>If you have previously signed up to become a participant and no longer wish to be contacted for future ..., you can &lt;a href="#unsubscribe">unsubscribe&lt;/a> yourself from the participant list and we will remove your personal information.&lt;/p>{% endcapture %}
+    {% include codeBlock.html content=unsubscribeCode %}
 </section>
 
 ### Affirmative action
@@ -127,15 +123,13 @@ An affirmative action the user can take to opt-in by agreeing to the privacy sta
             </div>
         </div>
     </div>
-    <details>
-        <summary>Code</summary>
-        <pre><code>&lt;div class="checkbox-inline">
+    {% capture affirmativeActionCode %}&lt;div class="checkbox-inline">
     &lt;label for="consent" class="required">
         &lt;input type="checkbox" id="consent" name="consent" value="consent">
         &lt;strong>I have read, understood and agree to the above. I affirm that I am 18 years old, or older. I understand that I can withdraw from this ... at any time without consequence.&lt;/strong>
     &lt;/label>
-&lt;/div></code></pre>
-    </details>
+&lt;/div>{% endcapture %}
+    {% include codeBlock.html content=affirmativeActionCode %}
 </section>
 
 ## Research and impacts
