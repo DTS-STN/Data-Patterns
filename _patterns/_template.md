@@ -22,7 +22,7 @@ This patterns asks the user to:
 
 ## When to use this pattern
 
-_Describe when someone should be using the pattern here._
+_Describe when this pattern should be used._
 
 Use this pattern when:
 
@@ -32,7 +32,7 @@ Use this pattern when:
 
 ## When not to use this pattern
 
-_Describe when someone should **not** be using the pattern._
+_Describe when this pattern should **not** be used._
 
 Don't use this pattern when:
 
@@ -40,7 +40,7 @@ Don't use this pattern when:
 * Criteria 2
 * Criteria 3
 
-## How it works
+## How this pattern works
 
 _Get into detail about how the pattern would be implemented and what it achieves._
 
@@ -59,7 +59,7 @@ _Break it down into parts and explain each one._
     <details>
         <summary>Code</summary>
         <pre><code>&lt;h2>Part 1 example&lt;/h2>
-&lt;p>Show what it would look like with an example and include a code snippet of what's actually being done to achieve it!&lt;/p></code></pre>
+&lt;p>Show what it would look like with an example and include a code snippet of what is done to achieve it!&lt;/p></code></pre>
     </details>
 </section>
 
