@@ -22,7 +22,7 @@ ______________________
 
 Lorsque vous contribuez, veuillez également publier des commentaires et discuter des modifications que vous souhaitez apporter par l'entremise des enjeux (issues).
 
-N'hésitez pas à proposer des modifications en créant des demandes de transfert _(pull requests)_. Si vous n'avez pas accès au mode d’édition, la modification d'un fichier créera une copie (fork) de ce projet afin que vous puissiez enregistrer les modifications que vous proposez. Le fait de proposer une modification à un fichier l'écrira dans une nouvelle branche dans votre copie (fork), de sorte que vous puissiez envoyer une demande de transfert (pull request).
+N'hésitez pas à proposer des modifications en créant des demandes de fusion (pull requests). Si vous n'avez pas accès au mode d’édition, la modification d'un fichier créera une copie (fork) de ce projet afin que vous puissiez enregistrer les modifications que vous proposez. Le fait de proposer une modification à un fichier l'écrira dans une nouvelle branche dans votre copie, de sorte que vous puissiez envoyer une demande de fusion.
 
 Si c'est la première fois que vous contribuez à GitHub, ne vous en faites pas! Faites-nous part de vos questions.
 
