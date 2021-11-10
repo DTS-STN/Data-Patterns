@@ -51,13 +51,13 @@ Veillez à utiliser les niveaux de titre appropriés, généralement un `h2` est
         <div class="panel-body">
             <p class="h2 mrgn-tp-sm">Politique en matière de protection des renseignements personnels<span class="sr-only"> [H2]</span></p>
             <p><em>[Vous pouvez ajouter ici une déclaration de confidentialité personnalisée qui respecte la politique de confidentialité du gouvernement du Canada. Elle doit indiquer clairement comment les enseignements personnels de l'utilisateur <strong>seront ou ne seront pas</strong> utilisées. Des exemples suivent.]</em></p>
-            <p>Vos renseignements personnels <strong>ne seront pas</strong> utilisées dans le cadre d'un processus décisionnelqui vous touche directement ou qui vous donne aux services du gouvernement du Canada. Vos renseignements <strong>ne seront pas</strong> utilisés à des fins administratives.</p>
+            <p>Vos renseignements personnels <strong>ne seront pas</strong> utilisés dans le cadre d'un processus décisionnel qui vous touche directement ou qui vous donne accès aux services du gouvernement du Canada. Vos renseignements <strong>ne seront pas</strong> utilisés à des fins administratives.</p>
             <p>Vos renseignements personnels et vos commentaires sont confidentiels.</p>
             <p>Vos renseignements <strong>seront</strong> utilisés par Emploi et Développement Social Canada pour <em>[expliquez brièvement à quoi serviront les renseignements]</em>.</p>
             <p class="h3">Ce que nous allons recueillir<span class="sr-only"> [H3]</span></p>
-            <p>Nous avons besoin des renseignements suivants pour <em>[expliquer brièvement pourquoi vous avez besoin des données suivantes] </em>:</p>
+            <p>Nous avons besoin des renseignements suivants pour <em>[expliquez brièvement pourquoi vous avez besoin des données suivantes] </em>:</p>
             <ul>
-                <li>Adresse de courrier électroniquel</li>
+                <li>Adresse de courrier électronique</li>
                 <li><em>[Indiquez d'autres données d'identification personnelle obligatoires]</em></li>
             </ul>
             <p>Vous pouvez également choisir d’échanger plus de renseignements avec nous pour que nous puissions <em>[expliquez brièvement comment le fait de fournir les données suivantes permettra de fournir des services à l'utilisateur] </em>:</p>
@@ -98,7 +98,7 @@ La section doit commencer par un titre de même niveau que la déclaration de co
     <h4>Exemple de description de désabonnement</h4>
     <div class="panel panel-default pattern-demo">
         <div class="panel-body">
-            <p class="h2 mrgn-tp-sm">Comment se désabonner de <em>[identifier de quoi l'utilisateur se désabonne]</em><span class="sr-only"> [H2]</span></p>
+            <p class="h2 mrgn-tp-sm">Comment se désabonner de <em>[identifiez de quoi l'utilisateur se désabonne]</em><span class="sr-only"> [H2]</span></p>
             <p>Si vous vous êtes déjà inscrit pour participer et que vous ne souhaitez plus être contacté <em>expliquez en détail ce dont l'utilisateur se désabonne]</em>, vous pouvez vous <a href="#desabonner">désabonner</a> et nous supprimerons vos renseignements personnels.</p>
         </div>
     </div>
@@ -118,7 +118,7 @@ Action affirmative que l'utilisateur peut entreprendre pour accepter la déclara
             <div class="checkbox-inline">
                 <label for="consent" class="required">
                     <input type="checkbox" id="consent" name="consent" value="consent">
-                    <strong>J’ai lu, compris et accepté de qui précède. J'affirme que j'ai 18 ans ou plus. Je comprends que je peux me retirer de ce <em>[nom duservice]</em> à tout moment sans conséquence.</strong>
+                    <strong>J’ai lu, compris et accepté ce qui précède. J'affirme que j'ai 18 ans ou plus. Je comprends que je peux me retirer de ce <em>[nom duservice]</em> à tout moment sans conséquence.</strong>
                 </label>
             </div>
         </div>
@@ -132,7 +132,7 @@ Action affirmative que l'utilisateur peut entreprendre pour accepter la déclara
     {% include codeBlock.html content=affirmativeActionCode %}
 </section>
 
-# Recherche et impactes
+# Recherche et impacte
 
 ## Bientôt disponible
 

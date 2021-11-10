@@ -12,37 +12,37 @@ date-modified: 2021-01-01
 
 {% include pattern-summary.html %}
 
-_Ajouter une description brève du modèle._
+_Ajoutez un description brève de modèle._
 
 Cette modèle demande à l'utilisateur de:
 
-* Action 1
-* Action 2
-* Action 3
+* Action 1;
+* Action 2;
+* Action 3.
 
 ## Quand utiliser ce modèle
 
-_Décrivez quand quelqu'un devrait utiliser le modèle ici._
+_Décrivez quand ce modèle devrait être utilisé._
 
-Utilisez cette modèle lorsque:
+Utilisez ce modèle lorsque:
 
-* Critères 1
-* Critères 2
-* Critères 3
+* Critères 1;
+* Critères 2;
+* Critères 3.
 
 ## Quand ne pas utiliser ce modèle
 
-_Décrivez quand quelqu'un ne devrait **pas** utiliser le modèle._
+_Décrivez quand ce modèle ne devrait **pas** être utilisé._
 
 N'utilisez pas cette modèle lorsque:
 
-* Critères 1
-* Critères 2
-* Critères 3
+* Critères 1;
+* Critères 2;
+* Critères 3.
 
-## Comment ça fonctionne
+## Comment ce modèle fonctionne
 
-_Expliquez en détail comment un modèle serait mis en œuvre et ce qu'il permet de réaliser._
+_Expliquez en détail comment un modèle pourrait être mis en œuvre et ce qu'il permettrait de réaliser._
 
 ### Partie 1
 
@@ -69,10 +69,10 @@ _Ajoutez la recherche et les impacts du modèle ici._
 
 _Partagez des liens vers:_
 
-* les résultats de la recherche, y compris la recherche sur les utilisateurs et les résultats des tests
-* la documentation technique ou de conception
-* évaluations de l'accessibilité, de la confidentialité ou de la sécurité
-* lois ou politiques
+* les résultats de la recherche, y compris la recherche sur les utilisateurs et les résultats des tests;
+* la documentation technique ou de conception;
+* évaluations de l'accessibilité, de la confidentialité ou de la sécurité;
+* lois ou politiques.
 
 ## Modèles et composants connexes
 
@@ -80,6 +80,6 @@ _Partagez des liens vers:_
 * [vers les modèles associés](#lien)
 * [et composants ici](#link)
 
-## Changements récents
+## Récents Cchangements
 
 * 2021-01-01 - Début du développement
