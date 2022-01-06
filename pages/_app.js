@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
+import {GCFooter, GCHeader} from 'gc-tortilla';
+import InfoPanel from '../components/molecules/infoPanel';
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <React.Fragment>
-    <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/rn/cdts/compiled/wet-en.js"></script>
-      <Component {...pageProps} />
-      </React.Fragment>
-}
+export default function MyApp({ Component, pageProps }) {
 
-export default MyApp
+    return (
+        <React.Fragment>
+            <GCHeader/>
+            <Component {...pageProps} />
+            <InfoPanel content={pageProps.infoPanel}/>
+            <GCFooter/>
+        </React.Fragment>
+    )
+};

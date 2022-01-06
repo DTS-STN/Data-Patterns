@@ -1,0 +1,20 @@
+.container {
+    border: solid #2392a9 1px;
+    border-radius: 3px;
+}
+
+.container h2 {
+    margin: 0;
+    padding: 10px 15px;
+    color: #31708f;
+    background-color: #d9edf7;
+    border-bottom: solid 1px #2392a9;
+}
+
+.body {
+    padding: 15px;
+}
+
+.body p {
+    margin: 0 0 11.5px;
+}
