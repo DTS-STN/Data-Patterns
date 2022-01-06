@@ -1,4 +1,0 @@
-domain: datapatterns-dev.bdm-dev.dts-stn.com     # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://datapatterns-dev.bdm-dev.dts-stn.com  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /
-adobe-analytics: //assets.adobedtm.com/be5dfd287373/0127575cd23a/launch-f7c3e6060667.min.js # PROD
