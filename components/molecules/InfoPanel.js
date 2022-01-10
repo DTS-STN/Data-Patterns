@@ -3,8 +3,6 @@ import styles from '../../styles/InfoPanel.module.css';
 
 export default function InfoPanel(props) {
 
-    console.log("PANEL LOG:", props);
-
     return (
         <div className={styles.container}>
             <h2>{props.content.data.title}</h2>

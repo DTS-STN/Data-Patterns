@@ -1,3 +1,7 @@
 {
-    "locale": "en"
+    "locale": "en",
+    "betaNoticeLabel": "Test site",
+    "SCLabsBetaNotice": "You cannot apply for services or benefits through this test site. Parts of this site may not work and will change.",
+    "backToProjects": "Back to projects",
+    "backToProjectsLink": "https://alpha.service.canada.ca/projects"
 }

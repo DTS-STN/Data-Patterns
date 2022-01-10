@@ -1,0 +1,67 @@
+.container {
+    background-color: #083C6C;
+    color: white;
+}
+
+.content {
+    display: flex;
+    margin: 0 25px;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.betaLabel {
+    width: fit-content;
+    margin-bottom: 8px;
+    padding: 4px 16px;
+    font-weight: bold;
+    color: #083C6C;
+    background-color: white;
+}
+
+.content a {
+    color: white;
+}
+
+.content p {
+    font-size: 16px;
+    margin: 0;
+}
+
+@media (min-width: 376px){
+    .content {
+        max-width: 376px;
+    }
+}
+
+@media (min-width: 640px){
+    .content {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px){
+    .content {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 1024px){
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .backContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+}
+
+@media (min-width: 1024px){
+    .content {
+        max-width: 1024px;
+    }
+}

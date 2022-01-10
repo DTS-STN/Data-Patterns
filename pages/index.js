@@ -15,6 +15,7 @@ export async function getStaticProps() {
 
     return {
         props: {
+            t: dictionary,
             infoPanel: {
                 markdown: parsedMarkdown.content,
                 data: parsedMarkdown.data
