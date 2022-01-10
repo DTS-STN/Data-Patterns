@@ -1,7 +1,10 @@
 {
     "locale": "en",
+    "getOppositeLang": "Français",
+    "siteTitle": "Data Patterns Library",
     "betaNoticeLabel": "Test site",
     "SCLabsBetaNotice": "You cannot apply for services or benefits through this test site. Parts of this site may not work and will change.",
     "backToProjects": "Back to projects",
-    "backToProjectsLink": "https://alpha.service.canada.ca/projects"
+    "backToProjectsLink": "https://alpha.service.canada.ca/projects",
+    "Government of Canada": "Government of Canada"
 }
