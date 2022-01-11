@@ -11,9 +11,9 @@ export default function GCHeader(props) {
             </div>
             <div className={styles.divider}/>
             <div className={styles.breadCrumbs}>
-                <a>Canada.ca</a>
+                <a href={props.t.canadaLink}>Canada.ca</a>
                 &nbsp;&nbsp;&gt;&nbsp;&nbsp;
-                <a>{props.t.siteTitle}</a>
+                <a href={props.t.dataPatternsLink}>{props.t.siteTitle}</a>
             </div>
         </React.Fragment>
     )
