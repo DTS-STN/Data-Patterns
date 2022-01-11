@@ -1,9 +1,9 @@
-.container {
+.panel {
     border: solid #2392a9 1px;
     border-radius: 3px;
 }
 
-.container h2 {
+.panel h2 {
     margin: 0;
     padding: 10px 15px;
     color: #31708f;

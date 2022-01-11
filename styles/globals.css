@@ -20,3 +20,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px 15px;
+  box-sizing: content-box;
+}
+
+@media (min-width: 768px){
+  .container {
+      width: 750px;
+  }
+}
+
+@media (min-width: 992px){
+  .container {
+      width: 970px;
+  }
+}
+
+@media (min-width: 1200px){
+  .container {
+      width: 1170px;
+  }
+}
