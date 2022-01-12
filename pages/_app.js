@@ -1,8 +1,7 @@
 import React from 'react';
 import SCLabsHeader from '../components/molecules/SCLabsHeader';
 import GCHeader from '../components/molecules/GCHeader';
-import InfoPanel from '../components/molecules/infoPanel';
-import GCFooter from '../components/molecules/GCFooter';
+import Footer from '../components/organisms/Footer';
 import '../styles/globals.css'
 
 export default function MyApp({ Component, pageProps }) {
@@ -12,10 +11,7 @@ export default function MyApp({ Component, pageProps }) {
             <SCLabsHeader t={pageProps.t}/>
             <GCHeader t={pageProps.t}/>
             <Component {...pageProps} />
-            {pageProps.infoPanel &&
-                <InfoPanel content={pageProps.infoPanel}/>
-            }
-            <GCFooter t={pageProps.t}/>
+            <Footer infoPanel={pageProps.infoPanel} t={pageProps.t}/>
         </React.Fragment>
     )
 };
