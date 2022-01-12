@@ -1,8 +1,8 @@
 import React from 'react';
-import {GCFooter} from 'gc-tortilla';
 import SCLabsHeader from '../components/molecules/SCLabsHeader';
 import GCHeader from '../components/molecules/GCHeader';
 import InfoPanel from '../components/molecules/infoPanel';
+import GCFooter from '../components/molecules/GCFooter';
 import '../styles/globals.css'
 
 export default function MyApp({ Component, pageProps }) {
@@ -15,7 +15,7 @@ export default function MyApp({ Component, pageProps }) {
             {pageProps.infoPanel &&
                 <InfoPanel content={pageProps.infoPanel}/>
             }
-            <GCFooter/>
+            <GCFooter t={pageProps.t}/>
         </React.Fragment>
     )
 };

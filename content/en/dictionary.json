@@ -8,5 +8,12 @@
     "backToProjectsLink": "https://alpha.service.canada.ca/projects",
     "dataPatternsLink": "https://dpl-bmd.alpha.service.canada.ca/",
     "canadaLink": "https://www.canada.ca/en.html",
-    "Government of Canada": "Government of Canada"
+    "Government of Canada": "Government of Canada",
+    "Contact information": "Contact information",
+    "Terms and conditions": "Terms and conditions",
+    "Privacy": "Privacy",
+    "contactInfoLink": "https://github.com/DTS-STN/Data-Patterns/blob/main/CONTRIBUTING.md",
+    "termsAndConditionsLink": "https://www.canada.ca/en/transparency/terms.html",
+    "privacyLink": "https://www.canada.ca/en/transparency/privacy.html"
 }
+
