@@ -5,9 +5,10 @@
 
 .content {
     display: flex;
-    margin: 0 25px;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 20px 15px;
     max-width: 100%;
+    box-sizing: content-box;
 }
 
 .betaLabel {
@@ -28,21 +29,15 @@
     margin: 0;
 }
 
-@media (min-width: 376px){
-    .content {
-        max-width: 376px;
-    }
-}
-
-@media (min-width: 640px){
-    .content {
-        max-width: 640px;
-    }
-}
-
 @media (min-width: 768px){
     .content {
-        max-width: 768px;
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px){
+    .content {
+        width: 970px;
     }
 }
 
@@ -60,8 +55,8 @@
     }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1200px){
     .content {
-        max-width: 1024px;
+        width: 1170px;
     }
 }
