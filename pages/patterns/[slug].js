@@ -3,7 +3,6 @@ import path from "path";
 import Head from 'next/head';
 import ReactMarkdown from 'react-markdown';
 import matter from "gray-matter";
-import {GCFooter, GCHeader} from 'gc-tortilla';
 import dictionary from '../../content/en/dictionary.json';
 
 export default function Pattern(props) {

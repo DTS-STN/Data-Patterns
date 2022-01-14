@@ -1,9 +1,6 @@
 .content {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    padding: 10px 15px;
-    box-sizing: content-box;
 }
 
 .content a {
@@ -19,28 +16,4 @@
     width: 100vw;
     margin-top: 5px;
     border-top: 3px solid #38414d;
-}
-
-.breadCrumbs {
-    margin: 0 auto;
-    padding: 12px;
-    box-sizing: content-box;
-}
-
-@media (min-width: 768px){
-    .content, .breadCrumbs {
-        width: 750px;
-    }
-}
-
-@media (min-width: 992px){
-    .content, .breadCrumbs {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px){
-    .content, .breadCrumbs {
-        width: 1170px;
-    }
 }

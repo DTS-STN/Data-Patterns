@@ -1,9 +1,11 @@
+import ContentContainer from '../organisms/ContentContainer';
 import styles from '../../styles/GCFooter.module.css';
 
 export default function GCFooter(props) {
 
     return (
         <div className={styles.container}>
+            <ContentContainer>
             <div className={styles.content}>
                 <div className={styles.linksContainer}>
                     <a href={props.t.contactInfoLink}>{props.t["Contact information"]}</a>
@@ -25,6 +27,7 @@ export default function GCFooter(props) {
                 </ul>
                 <img className={styles.fip} src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_43/wet-boew/assets/wmms-blk.svg"/>  
             </div>
+            </ContentContainer>
         </div>
     )
 }
