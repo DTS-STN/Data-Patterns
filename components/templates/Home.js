@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import ReactMarkdown from 'react-markdown';
 import ContentContainer from '../organisms/ContentContainer';
+import PatternCard from '../molecules/PatternCard';
 import styles from '../../styles/Home.module.css';
 
 export default function Home(props) {
@@ -13,6 +14,15 @@ export default function Home(props) {
             </Head>
             <ContentContainer>
                 <ReactMarkdown children={props.content.markdown}/>
+                <h2>{props.t.Patterns}</h2>
+                <div className={styles.cardContainer}>
+                    {props.patterns.map(pattern => (
+                        <PatternCard key={props.patterns.indexOf(pattern)} pattern={pattern}/>
+                    ))}
+                    {props.patterns.length % 3 == 2 &&
+                        <div style={{width: "30%", visibility: "hidden"}}></div>
+                    }
+                </div>
             </ContentContainer>
         </div>
     )

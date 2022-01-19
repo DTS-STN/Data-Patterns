@@ -5,7 +5,7 @@ import Home from '../components/templates/Home';
 
 export default function Index(props) {
     return (
-        <Home content={props.home}/>
+        <Home t={dictionary} content={props.home} patterns={props.patterns}/>
     )
 }
 
@@ -16,9 +16,19 @@ export async function getStaticProps() {
     const homeMarkdownMeta = fs.readFileSync("content/en/home.md").toString();
     const parsedHomeMarkdown = matter(homeMarkdownMeta);
 
+    let patternsPath = "content/en/patterns";
+    let patternFiles = fs.readdirSync(patternsPath);
+    patternFiles = patternFiles.filter(file => file.slice(file.length - 3) === ".md");
+    patternFiles = patternFiles.map(filename => {
+        let parsed = fs.readFileSync(`${patternsPath}/${filename}`).toString();
+        parsed = matter(parsed);
+        return parsed.data;
+    });
+
     return {
         props: {
             t: dictionary,
+            patterns: patternFiles,
             home: {
                 markdown: parsedHomeMarkdown.content,
                 data: parsedHomeMarkdown.data
