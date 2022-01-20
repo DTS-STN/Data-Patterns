@@ -3,3 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.patternsTitle {
+    margin: 38px 0 12px;
+}

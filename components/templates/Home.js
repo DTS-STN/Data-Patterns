@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import ReactMarkdown from 'react-markdown';
 import ContentContainer from '../organisms/ContentContainer';
+import MarkdownRenderer from '../organisms/MarkdownRenderer';
 import PatternCard from '../molecules/PatternCard';
 import styles from '../../styles/Home.module.css';
 
@@ -13,8 +13,8 @@ export default function Home(props) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <ContentContainer>
-                <ReactMarkdown children={props.content.markdown}/>
-                <h2>{props.t.Patterns}</h2>
+                <MarkdownRenderer markdown={props.content.markdown}/>
+                <h2 className={styles.patternsTitle}>{props.t.Patterns}</h2>
                 <div className={styles.cardContainer}>
                     {props.patterns.map(pattern => (
                         <PatternCard key={props.patterns.indexOf(pattern)} pattern={pattern}/>

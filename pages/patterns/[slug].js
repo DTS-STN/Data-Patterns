@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 import Head from 'next/head';
-import ReactMarkdown from 'react-markdown';
 import matter from "gray-matter";
+import MarkdownRenderer from "../../components/organisms/MarkdownRenderer";
 import dictionary from '../../content/en/dictionary.json';
 
 export default function Pattern(props) {
@@ -15,7 +15,7 @@ export default function Pattern(props) {
             </Head>
             <h1>{props.pattern.data.name}</h1>
             <p>{props.pattern.data["short-description"]}</p>
-            <ReactMarkdown children={props.pattern.markdown}/>
+            <MarkdownRenderer markdown={props.pattern.markdown}/>
             <div>Date Modified {props.pattern.data["date-modified"]}</div>
         </div>
     )
