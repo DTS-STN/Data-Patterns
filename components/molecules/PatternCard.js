@@ -5,11 +5,11 @@ export default function PatternCard(props) {
     return (
         <Link href={props.pattern.permalink}>
             <figure className={styles.container}>
-                <img src={props.pattern["feature-img-path"]} alt={props.pattern["feature-img-alt"]}/>
-                <div className={styles.content}>
+                <img src={props.pattern["feature-img-path"]} alt="" />
+                <figcaption className={styles.content}>
                     <h4>{props.pattern.name}</h4>
-                    <figcaption>{props.pattern["short-description"]}</figcaption>
-                </div>
+                    {props.pattern["short-description"]}
+                </figcaption>
             </figure>
         </Link>
     )
