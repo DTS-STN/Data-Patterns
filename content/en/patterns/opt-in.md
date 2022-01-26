@@ -2,7 +2,7 @@
 layout: default
 name: Opt-in to give consent
 short-description: Notifying the user of data collection and asking them to consent to it.
-feature-img-path: assets/images/opt-in.png
+feature-img-path: /assets/images/opt-in.png
 feature-img-alt: Privacy policy with checkbox prompt to agree and submit button.
 permalink: /patterns/opt-in
 lang-link: ../modeles/opter.html

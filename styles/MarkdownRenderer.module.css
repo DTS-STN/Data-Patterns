@@ -4,3 +4,11 @@
     margin-top: 1em;
     padding-bottom: 0.2em;
 }
+
+.markdown h2 {
+    margin: 38px 0 12px;
+}
+
+.markdown p {
+    margin: 0 0 11.5px;
+}
