@@ -5,7 +5,7 @@ short-description: Notifying the user of data collection and asking them to cons
 feature-img-path: /assets/images/opt-in.png
 feature-img-alt: Privacy policy with checkbox prompt to agree and submit button.
 permalink: /patterns/opt-in
-lang-link: ../modeles/opter.html
+lang-link: /fr/modeles/opter
 lang: en
 status: under development
 date-modified: "2021-07-22"

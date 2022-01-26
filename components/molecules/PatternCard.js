@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 import styles from '../../styles/PatternCard.module.css';
 
 export default function PatternCard(props) {

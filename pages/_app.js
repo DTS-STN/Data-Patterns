@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps }) {
     return (
         <React.Fragment>
             <SCLabsHeader t={pageProps.t}/>
-            <GCHeader t={pageProps.t}/>
+            <GCHeader t={pageProps.t} langLink={pageProps.langLink ? pageProps.langLink : pageProps.t.locale != "en" ? "/" : "/fr"}/>
             <Component {...pageProps} />
             <Footer infoPanel={pageProps.infoPanel} t={pageProps.t}/>
         </React.Fragment>

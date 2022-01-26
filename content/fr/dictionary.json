@@ -1,0 +1,25 @@
+{
+    "locale": "fr",
+    "getOppositeLang": "English",
+    "siteTitle": "Bibliothèque de modèles de données",
+    "betaNoticeLabel": "Site d’essai",
+    "SCLabsBetaNotice": "Vous ne pouvez pas demander de services ou de prestations par l’intermédiaire de ce site d’essai. Certaines parties du site pourraient ne pas fonctionner et seront modifiées.",
+    "backToProjects": "Retour aux projets",
+    "backToProjectsLink": "https://alpha.service.canada.ca/fr/projects",
+    "dataPatternsLink": "/fr",
+    "canadaLink": "https://www.canada.ca/fr.html",
+    "Patterns": "Les modèles",
+    "This pattern is currently": "Ce modèle est",
+    "Date Modified": "Date de modification",
+    "Government of Canada": "Gouvernement du Canada",
+    "footerText": "Tout le contenu de la bibliothèque de modèles de données est disponible sous la Licence",
+    "footerLinkLabel": "Licence du gouvernement ouvert – Canada",
+    "footerLink": "https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada",
+    "Contact information": "Coordonnées",
+    "Terms and conditions": "Avis",
+    "Privacy": "Confidentialité",
+    "contactInfoLink": "https://github.com/DTS-STN/Data-Patterns/blob/main/CONTRIBUTING.md",
+    "termsAndConditionsLink": "https://www.canada.ca/fr/transparence/avis.html",
+    "privacyLink": "https://www.canada.ca/fr/transparence/confidentialite.html"
+}
+

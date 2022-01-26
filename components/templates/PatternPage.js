@@ -15,13 +15,21 @@ export default function PatternPage(props) {
             </Head>
             <ContentContainer>
                 <h1 className={styles.title}>{props.pattern.data.name}</h1>
-                <Alert>
-                    <p>{props.t["This pattern is currently"]} <strong>{props.pattern.data.status}</strong></p>
-                </Alert>
-                <img className={styles.featuredImage} src={props.pattern.data["feature-img-path"]} alt={props.pattern.data["feature-img-alt"]}/>
-                <p><strong>{props.pattern.data["short-description"]}</strong></p>
+                {props.pattern.data.hasOwnProperty("status") &&
+                    <Alert>
+                        <p>{props.t["This pattern is currently"]} <strong>{props.pattern.data.status}</strong></p>
+                    </Alert>
+                }
+                {props.pattern.data.hasOwnProperty("feature-img-path") &&
+                    <img className={styles.featuredImage} src={props.pattern.data["feature-img-path"]} alt={props.pattern.data["feature-img-alt"]}/>
+                }
+                {props.pattern.data.hasOwnProperty("short-description") &&
+                    <p><strong>{props.pattern.data["short-description"]}</strong></p>   
+                }
                 <MarkdownRenderer markdown={props.pattern.markdown}/>
-                <div>Date Modified {props.pattern.data["date-modified"]}</div>
+                {props.pattern.data.hasOwnProperty("date-modified") &&
+                    <div>{props.t["Date Modified"]}: {props.pattern.data["date-modified"]}</div>
+                }
             </ContentContainer>
         </React.Fragment>
     )
