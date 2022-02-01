@@ -10,9 +10,9 @@ export default function GCHeader(props) {
             <ContentContainer>
                 <div className={styles.content}>
                     <Link href={props.langLink}>
-                        <a>{props.t.getOppositeLang}</a>
+                        <a lang={props.t.getOppositeLang} hrefLang={props.t.getOppositeLang}>{props.t.getOppositeLang}</a>
                     </Link>
-                    <img className={styles.fip} src='https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_43/wet-boew/assets/sig-blk-en.svg' alt={props.t["Government of Canada"]}/>
+                    <img className={styles.fip} src={props.t.GCFipLink} alt={props.t["Government of Canada"]}/>
                 </div>
             </ContentContainer>
             <div className={styles.divider}/>

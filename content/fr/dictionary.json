@@ -18,8 +18,9 @@
     "Contact information": "Coordonnées",
     "Terms and conditions": "Avis",
     "Privacy": "Confidentialité",
-    "contactInfoLink": "https://github.com/DTS-STN/Data-Patterns/blob/main/CONTRIBUTING.md",
+    "contactInfoLink": "https://github.com/DTS-STN/Data-Patterns/blob/main/CONTRIBUTING.md#comment-contribuer",
     "termsAndConditionsLink": "https://www.canada.ca/fr/transparence/avis.html",
-    "privacyLink": "https://www.canada.ca/fr/transparence/confidentialite.html"
+    "privacyLink": "https://www.canada.ca/fr/transparence/confidentialite.html",
+    "GCFipLink": "https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_43/wet-boew/assets/sig-blk-fr.svg"
 }
 
