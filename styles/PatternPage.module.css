@@ -1,0 +1,14 @@
+.title {
+    border-bottom: 1px solid #af3c43;
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+    padding-bottom: 0.2em;
+}
+
+.featuredImage {
+    float: right;
+    height: 250px;
+    width: 33%;
+    padding-left: 15px;
+    object-fit: cover;
+}

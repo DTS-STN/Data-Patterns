@@ -9,6 +9,11 @@
     box-sizing: content-box;
 }
 
+.backContainer {
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
 .betaLabel {
     width: fit-content;
     margin-bottom: 8px;

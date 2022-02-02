@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+}
+
+.infoBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6px;
+    margin-right: 20px;
+    background-color: #269abc;
+}
+
+.infoBar svg {
+    flex: none;
+    background-color: white;
+    padding: 4px;
+    margin-bottom: 3px;
+    box-sizing: content-box;
+    border-radius: 50%;
+    fill: #269abc;
+}

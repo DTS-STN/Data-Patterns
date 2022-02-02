@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import PatternPage from "../../components/templates/PatternPage";
-import dictionary from '../../content/en/dictionary.json';
+import PatternPage from "../../../components/templates/PatternPage";
+import dictionary from '../../../content/fr/dictionary.json';
 
 export default function Pattern(props) {
 
@@ -12,7 +12,7 @@ export default function Pattern(props) {
 }
 
 export async function getStaticPaths() {
-    const files = fs.readdirSync("content/en/patterns");
+    const files = fs.readdirSync("content/fr/patterns");
     console.log("files: ", files);
     const paths = files.map(filename => ({
         params: {
@@ -28,11 +28,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-    const markdownWithMetadata = fs.readFileSync(path.join("content/en/patterns", slug + ".md")).toString();
+    const markdownWithMetadata = fs.readFileSync(path.join("content/fr/patterns", slug + ".md")).toString();
 
     const parsedMarkdown = matter(markdownWithMetadata);
 
-    const infoPanelMarkdownMeta = fs.readFileSync("content/en/infoPanel.md").toString();
+    const infoPanelMarkdownMeta = fs.readFileSync("content/fr/infoPanel.md").toString();
     const parsedInfoPanelMarkdown = matter(infoPanelMarkdownMeta);
 
     return {

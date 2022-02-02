@@ -6,9 +6,11 @@
     "SCLabsBetaNotice": "You cannot apply for services or benefits through this test site. Parts of this site may not work and will change.",
     "backToProjects": "Back to projects",
     "backToProjectsLink": "https://alpha.service.canada.ca/projects",
-    "dataPatternsLink": "https://dpl-bmd.alpha.service.canada.ca/",
+    "dataPatternsLink": "/",
     "canadaLink": "https://www.canada.ca/en.html",
     "Patterns": "Patterns",
+    "This pattern is currently": "This pattern is currently",
+    "Date Modified": "Date Modified",
     "Government of Canada": "Government of Canada",
     "footerText": "All content of the Data Patterns Library is available under the",
     "footerLinkLabel": "Open Government Licence - Canada",
@@ -18,6 +20,7 @@
     "Privacy": "Privacy",
     "contactInfoLink": "https://github.com/DTS-STN/Data-Patterns/blob/main/CONTRIBUTING.md",
     "termsAndConditionsLink": "https://www.canada.ca/en/transparency/terms.html",
-    "privacyLink": "https://www.canada.ca/en/transparency/privacy.html"
+    "privacyLink": "https://www.canada.ca/en/transparency/privacy.html",
+    "GCFipLink": "https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_43/wet-boew/assets/sig-blk-en.svg"
 }
 

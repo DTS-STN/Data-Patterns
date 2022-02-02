@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import ContentContainer from '../organisms/ContentContainer';
 import styles from '../../styles/GCHeader.module.css';
 
@@ -8,8 +9,10 @@ export default function GCHeader(props) {
         <React.Fragment>
             <ContentContainer>
                 <div className={styles.content}>
-                    <a>{props.t.getOppositeLang}</a>
-                    <img className={styles.fip} src='https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_43/wet-boew/assets/sig-blk-en.svg' alt={props.t["Government of Canada"]}/>
+                    <Link href={props.langLink}>
+                        <a lang={props.t.getOppositeLang} hrefLang={props.t.getOppositeLang}>{props.t.getOppositeLang}</a>
+                    </Link>
+                    <img className={styles.fip} src={props.t.GCFipLink} alt={props.t["Government of Canada"]}/>
                 </div>
             </ContentContainer>
             <div className={styles.divider}/>
