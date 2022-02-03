@@ -1,12 +1,12 @@
 import fs from "fs";
 import matter from "gray-matter";
-import PatternPage from "../../components/templates/PatternPage";
+import MarkdownLayout from "../../components/organisms/MarkdownLayout";
 import dictionary from '../../content/fr/dictionary.json';
 
 export default function About(props) {
 
     return (
-        <PatternPage t={dictionary} pattern={props.pattern}/>
+        <MarkdownLayout t={dictionary} pattern={props.pattern}/>
     )
 }
 
