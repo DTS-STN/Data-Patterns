@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import ContentContainer from '../organisms/ContentContainer';
 import Alert from '../atoms/Alert';
-import MarkdownRenderer from "../organisms/MarkdownRenderer";
+import MarkdownLayout from "../organisms/MarkdownLayout";
 import styles from '../../styles/PatternPage.module.css';
 
 export default function PatternPage(props) {
@@ -26,7 +26,7 @@ export default function PatternPage(props) {
                 {props.pattern.data.hasOwnProperty("short-description") &&
                     <p><strong>{props.pattern.data["short-description"]}</strong></p>   
                 }
-                <MarkdownRenderer markdown={props.pattern.markdown}/>
+                <MarkdownLayout markdown={props.pattern.markdown}/>
                 {props.pattern.data.hasOwnProperty("date-modified") &&
                     <div>{props.t["Date Modified"]}: {props.pattern.data["date-modified"]}</div>
                 }
