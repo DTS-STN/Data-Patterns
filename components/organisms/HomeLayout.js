@@ -1,10 +1,10 @@
 import Head from 'next/head';
-import ContentContainer from '../organisms/ContentContainer';
+import ContentContainer from './ContentContainer';
 import PatternCard from '../molecules/PatternCard';
 import styles from '../../styles/Home.module.css';
 import ReactMarkdown from 'react-markdown';
 
-export default function Home(props) {
+export default function HomeLayout(props) {
     return (
         <div className={styles.container}>
             <Head>

@@ -1,10 +1,9 @@
 import React from 'react';
-import ContentContainer from '../organisms/ContentContainer';
 import Alert from '../atoms/Alert';
-import MarkdownLayout from "../organisms/MarkdownLayout";
-import styles from '../../styles/PatternPage.module.css';
+import MarkdownLayout from "./MarkdownLayout";
+import styles from '../../styles/PatternLayout.module.css';
 
-export default function PatternPage(props) {
+export default function PatternLayout(props) {
 
     return (
         <MarkdownLayout markdown={props.pattern.markdown} pattern={props.pattern} t={props.t}>
