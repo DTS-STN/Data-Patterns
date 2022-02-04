@@ -1,13 +1,13 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import PatternLayout from "../../../components/organisms/PatternLayout";
 import dictionary from '../../../content/fr/dictionary.json';
+import Pattern from "../../../components/templates/Pattern";
 
-export default function Pattern(props) {
+export default function patterns(props) {
 
     return (
-        <PatternLayout t={dictionary} pattern={props.pattern}/>
+        <Pattern t={dictionary} pattern={props.pattern}/>
     )
 }
 

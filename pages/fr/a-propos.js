@@ -1,12 +1,12 @@
 import fs from "fs";
 import matter from "gray-matter";
-import MarkdownLayout from "../../components/organisms/MarkdownLayout";
+import MDContent from "../../components/templates/MDContent";
 import dictionary from '../../content/fr/dictionary.json';
 
 export default function About(props) {
 
     return (
-        <MarkdownLayout t={dictionary} pattern={props.pattern}/>
+        <MDContent t={dictionary} pattern={props.pattern}/>
     )
 }
 

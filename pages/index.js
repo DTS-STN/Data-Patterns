@@ -1,11 +1,11 @@
 import fs from "fs";
 import matter from "gray-matter";
 import dictionary from '../content/en/dictionary.json';
-import HomeLayout from '../components/organisms/HomeLayout';
+import Home from "../components/templates/Home";
 
 export default function Index(props) {
     return (
-        <HomeLayout t={dictionary} content={props.home} patterns={props.patterns}/>
+        <Home t={dictionary} content={props.home} patterns={props.patterns}/>
     )
 }
 
