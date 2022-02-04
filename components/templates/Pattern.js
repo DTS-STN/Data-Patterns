@@ -3,7 +3,7 @@ import Alert from '../atoms/Alert';
 import MarkdownLayout from "./MarkdownLayout";
 import styles from '../../styles/PatternLayout.module.css';
 
-export default function PatternLayout(props) {
+export default function Pattern(props) {
 
     return (
         <MarkdownLayout markdown={props.pattern.markdown} pattern={props.pattern} t={props.t}>

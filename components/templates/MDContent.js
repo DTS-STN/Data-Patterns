@@ -2,7 +2,7 @@ import Head from 'next/head';
 import MDRenderer from '../molecules/MDRenderer';
 import ContentContainer from '../organisms/ContentContainer';
 
-export default function MarkdownLayout(props) {
+export default function MDContent(props) {
     return (
         <>
             <Head>
