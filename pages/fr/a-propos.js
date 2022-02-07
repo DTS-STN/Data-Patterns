@@ -1,12 +1,12 @@
 import fs from "fs";
 import matter from "gray-matter";
-import PatternPage from "../../components/templates/PatternPage";
+import ContentPage from "../../components/templates/ContentPage";
 import dictionary from '../../content/fr/dictionary.json';
 
 export default function About(props) {
 
     return (
-        <PatternPage t={dictionary} pattern={props.pattern}/>
+        <ContentPage t={dictionary} content={props.content}/>
     )
 }
 
@@ -21,7 +21,7 @@ export async function getStaticProps() {
         props: {
             t: dictionary,
             langLink: parsedMarkdown.data["lang-link"],
-            pattern: {
+            content: {
                 markdown: parsedMarkdown.content,
                 data: parsedMarkdown.data
             },
