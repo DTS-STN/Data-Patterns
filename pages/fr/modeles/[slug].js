@@ -2,12 +2,15 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import dictionary from '../../../content/fr/dictionary.json';
-import Pattern from "../../../components/templates/Pattern";
+import PatternInfoPanel from "../../../components/organisms/PatternInfoPanel";
+import MDContent from "../../../components/templates/MDContent";
 
 export default function patterns(props) {
 
-    return (
-        <Pattern t={dictionary} pattern={props.pattern}/>
+    return (        
+        <MDContent markdown={props.pattern.markdown} pattern={props.pattern} t={props.t}>
+            <PatternInfoPanel t={props.t} pattern={props.pattern} />
+        </MDContent>
     )
 }
 
