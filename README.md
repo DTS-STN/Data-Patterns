@@ -1,5 +1,7 @@
 # Data-Patterns
 
+This project is now deprecated, further work is being done on the [DECD-Design-System](https://github.com/DTS-STN/DECD-Design-System)
+
 ([Français](#Modèles-de-données))
 
 Reusable design patterns and components that give people more power over their data and help teams build more trustworthy digital services.
