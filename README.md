@@ -1,5 +1,7 @@
 # Data-Patterns
 
+This project is now deprecated, further work is being done on the [DECD-Design-System](https://github.com/DTS-STN/DECD-Design-System).
+
 ([Français](#Modèles-de-données))
 
 Reusable design patterns and components that give people more power over their data and help teams build more trustworthy digital services.
@@ -71,6 +73,8 @@ For more information, see [Federal identity requirements](https://www.canada.ca/
 ------
 
 ## Modèles de données
+
+Ce projet est maintenant obsolète, tout travail suivant sera effectué au [système de conception du DECD](https://github.com/DTS-STN/DECD-Design-System).
 
 Des modèles et des composants de conception réutilisables qui donnent aux gens plus de pouvoir sur leurs données et aident les équipes à créer des services numériques plus fiables.
 
