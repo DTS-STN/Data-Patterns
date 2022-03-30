@@ -1,0 +1,35 @@
+name: Accessibility Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  
+jobs:
+  axe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.2
+
+      - run: npm ci
+      - run: bundle install 
+      - run: bundle exec jekyll s -B
+
+      - name: Run axe
+        run: |
+          npm install -g @axe-core/cli
+          axe http://localhost:4000/Data-Patterns/ --exit
+
+
+# tried useing https://github.com/microsoft/accessibility-insights-action/blob/main/docs/usage.md
