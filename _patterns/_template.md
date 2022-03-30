@@ -1,6 +1,6 @@
 ---
 layout: default
-name: Testing Template
+name: Testing Template ABC
 short-description: A template to test and create new patterns.
 feature-img-path: 
 permalink: /patterns/template.html
@@ -16,9 +16,9 @@ _Add a brief description of the pattern._
 
 This patterns asks the user to:
 
-* Action 1
-* Action 2
-* Action 3
+* Test 1 
+* Test 2
+* Test 3
 
 ## When to use this pattern
 
@@ -26,9 +26,9 @@ _Describe when this pattern should be used._
 
 Use this pattern when:
 
-* Criteria 1
-* Criteria 2
-* Criteria 3
+* Criteria 1 - A
+* Criteria 2 - B
+* Criteria 3 - C
 
 ## When not to use this pattern
 
@@ -81,6 +81,8 @@ _Add links to related patterns or components._
 * [Link 1](#link)
 * [Link 2](#link)
 * [Link 3](#link)
+* [Link 4](#link)
+* [Link 5](#link)
 
 ### Recent changes
 
