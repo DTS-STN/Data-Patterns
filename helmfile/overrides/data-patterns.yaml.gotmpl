@@ -17,6 +17,7 @@ extraEnv:
 
 ingress:
       enabled: true
+      ingressClassName: nginx
       hosts:
       {{- if or (eq .Environment.Name "prod-blue") (eq .Environment.Name "prod-green") }}
           - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN" }}
