@@ -20,7 +20,6 @@ ingress:
       {{ if (eq .Environment.Name "prototype")}}
       ingressClassName: nginx
       {{ end }}
-
       hosts:
       {{- if or (eq .Environment.Name "prod-blue") (eq .Environment.Name "prod-green") }}
           - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN" }}
