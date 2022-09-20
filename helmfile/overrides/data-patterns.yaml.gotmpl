@@ -9,6 +9,12 @@ replicaCount: 2
 replicaCount: 1
 {{ end}}
 
+rbac:
+  enabled: true
+  azureAdGroupId: {{ requiredEnv "AZURE_AD_GROUP_ID" }} 
+
+
+
 extraEnv:
   - name: NOTIFY_BASE_API_URL
     value: "https://api.notification.canada.ca"

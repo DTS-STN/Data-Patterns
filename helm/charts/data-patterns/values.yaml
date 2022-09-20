@@ -9,6 +9,11 @@ readinessPath: /
 
 replicaCount: 1
 
+rbac:
+  enabled: false
+  azureAdGroupId: changeme
+
+
 image:
   repository: nginx
   tag: stable
