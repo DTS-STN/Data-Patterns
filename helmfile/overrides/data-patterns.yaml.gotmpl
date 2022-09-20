@@ -1,5 +1,5 @@
 image:
-  repository: "{{ requiredEnv "ACR_DOMAIN" }}/{{ requiredEnv "PROJECT" }}"
+  repository: "{{ requiredEnv "CLOUD_ACR_DOMAIN" }}/{{ requiredEnv "PROJECT" }}"
   tag: "{{ requiredEnv "DOCKER_TAG" }}" 
   pullPolicy: Always
 
@@ -9,6 +9,12 @@ replicaCount: 2
 replicaCount: 1
 {{ end}}
 
+rbac:
+  enabled: true
+  azureAdGroupId: {{ requiredEnv "AZURE_AD_GROUP_ID" }} 
+
+
+
 extraEnv:
   - name: NOTIFY_BASE_API_URL
     value: "https://api.notification.canada.ca"
@@ -16,22 +22,20 @@ extraEnv:
     value: "true"
 
 ingress:
-      enabled: true
-      {{ if (eq .Environment.Name "prototype")}}
-      ingressClassName: nginx
-      {{ end }}
-      hosts:
-      {{- if or (eq .Environment.Name "prod-blue") (eq .Environment.Name "prod-green") }}
+    enabled: true
+    annotations: 
+      cert-manager.io/cluster-issuer: letsencrypt-prod
+      appgw.ingress.kubernetes.io/ssl-redirect: "true"
+      kubernetes.io/ingress.class: azure/application-gateway
+    tls:
+      - hosts:
           - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN" }}
-      {{ else if (eq .Environment.Name "prototype")}}
-          - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN" }}
-          - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
-      {{ else }}
-          - {{ requiredEnv "PROJECT" }}-{{ .Environment.Name }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
-          - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
-      {{ end }} 
-      annotations: {}
-      # kubernetes.io/ingress.class: traefik
+        secretName: ingress-tls-datapat-{{ .Environment.Name }}
+    hosts:
+    - host: {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN" }}
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
 
 resources:
   requests:

@@ -25,7 +25,7 @@ releases:
         category: dts
         app: data-patterns
         tier: frontend
-    namespace: data-patterns-{{ .Environment.Name }}
+    namespace: data-patterns
     installed: true
     wait: false
     force: false
