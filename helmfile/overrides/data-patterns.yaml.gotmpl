@@ -27,15 +27,7 @@ ingress:
       ingressClassName: nginx
       {{ end }}
       hosts:
-      {{- if or (eq .Environment.Name "prod-blue") (eq .Environment.Name "prod-green") }}
           - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN" }}
-      {{ else if (eq .Environment.Name "prototype")}}
-          - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN" }}
-          - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
-      {{ else }}
-          - {{ requiredEnv "PROJECT" }}-{{ .Environment.Name }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
-          - {{ requiredEnv "PROJECT" }}.{{ requiredEnv "BASE_DOMAIN_DEV" }}
-      {{ end }} 
       annotations: {}
       # kubernetes.io/ingress.class: traefik
 
