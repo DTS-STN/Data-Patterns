@@ -1,5 +1,5 @@
 image:
-  repository: "{{ requiredEnv "ACR_DOMAIN" }}/{{ requiredEnv "PROJECT" }}"
+  repository: "{{ requiredEnv "CLOUD_ACR_DOMAIN" }}/{{ requiredEnv "PROJECT" }}"
   tag: "{{ requiredEnv "DOCKER_TAG" }}" 
   pullPolicy: Always
 
