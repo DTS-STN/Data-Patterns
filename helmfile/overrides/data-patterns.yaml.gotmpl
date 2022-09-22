@@ -24,7 +24,11 @@ extraEnv:
 ingress:
     enabled: true
     annotations: 
+      {{ if (eq .Environment.Name "prototype")}}  
+      cert-manager.io/cluster-issuer: letsencrypt-prod-alpha-sc
+      {{ else }}
       cert-manager.io/cluster-issuer: letsencrypt-prod
+      {{ end }}
       appgw.ingress.kubernetes.io/ssl-redirect: "true"
       kubernetes.io/ingress.class: azure/application-gateway
     tls:
